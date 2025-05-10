@@ -1,0 +1,76 @@
+name: Bug Report
+description: If you come across a bug while using an extension in the registry, please use the following template to report it and help us improve it.
+labels:
+    - "bug"
+    - "needs triage"
+assignees: []
+body:
+    - type: markdown
+      id: message
+      attributes:
+          value: Thanks for taking the time to fill out this bug report!
+    - type: checkboxes
+      id: preflight-checklist
+      attributes:
+          label: Preflight Checklist
+          description: Please ensure you've completed all of the following.
+          options:
+              - label: I have read and agree to follow the [code of conduct](https://github.com/inkdex/extensions?tab=coc-ov-file#readme).
+                required: true
+              - label: I have read and agree to follow the [support guidelines](https://github.com/inkdex/extensions/blob/master/.github/SUPPORT.md).
+                required: true
+              - label: I experienced this bug on the latest stable or development version of the extension.
+                required: true
+              - label: I have searched the [issue tracker](https://github.com/inkdex/extensions/issues?q=is%3Aissue+is%3Aopen+label%3Abug) for a bug report that matches the one I want to file, without success.
+                required: true
+    - type: input
+      id: app-versions
+      attributes:
+          label: App Version(s)
+          description: What app version(s) have you encountered the bug with?
+          placeholder: e.g. v0.9.1-r5
+      validations:
+          required: true
+    - type: input
+      id: extension-versions
+      attributes:
+          label: Extension and their version(s)
+          description: What extension and their version have you encountered the bug with?
+          placeholder: e.g. MadaraDex 1.1.3
+      validations:
+          required: true
+    - type: input
+      id: website-urls
+      attributes:
+          label: Website its URL(s)
+          description: What is the website its URL(s) that you have encountered the bug with?
+          placeholder: e.g. https://madaradex.org
+      validations:
+          required: true
+    - type: textarea
+      id: bug-description
+      attributes:
+          label: Describe the Bug
+          description: A clear and concise description of the bug that you encountered and what you expected to actually happen.
+          placeholder: Tell us about the bug!
+      validations:
+          required: true
+    - type: textarea
+      id: bug-replication
+      attributes:
+          label: Steps to Reproduce
+          description: Tell us how you triggered the bug so we can try to reproduce it ourselves.
+          placeholder: 1. ...
+      validations:
+          required: true
+    - type: textarea
+      id: extra-info
+      attributes:
+          label: Anything Else?
+          description: |
+              Titles, Chapters, Images, logs or links? Anything that will give us more context about the bug which you are encountering!
+
+              Tip: You can attach images, logs files or any other file by clicking this area to highlight it and then dragging files in.
+          placeholder: Titles, Chapters, Images, logs, links, ...
+      validations:
+          required: false

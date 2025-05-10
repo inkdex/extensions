@@ -1,0 +1,29 @@
+name: Registry Management
+
+on:
+  repository_dispatch:
+    types:
+      - registry-management
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  registry-management:
+    name: Registry Management
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate App Token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.REGISTRY_MANAGEMENT_APP_ID }}
+          private-key: ${{ secrets.REGISTRY_MANAGEMENT_APP_PRIVATE_KEY }}
+
+      - name: Manage Registry
+        uses: inkdex/registry-manager@stable
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          repository: ${{ github.event.client_payload.repository }}
+          branch: ${{ github.event.client_payload.branch }}
