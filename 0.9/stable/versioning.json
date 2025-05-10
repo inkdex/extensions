@@ -1,0 +1,31 @@
+{
+  "buildTime": "2025-05-10T23:53:47.636Z",
+  "builtWith": {
+    "toolchain": "1.0.0-alpha.51",
+    "types": "1.0.0-alpha.51"
+  },
+  "repository": {
+    "name": "Inkdex Extensions (0.9)",
+    "description": "All extensions from the Inkdex community in a single repository."
+  },
+  "sources": [
+    {
+      "id": "AniList",
+      "name": "AniList",
+      "description": "Extension that integrates with anilist.co for tracking and collection management.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 102,
+      "developers": [
+        {
+          "name": "Celarye",
+          "website": "https://celarye.dev",
+          "github": "https://github.com/Celarye"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "tracker-extensions": {
+    "AniList": {
+      "build_time": "2025-05-10T23:47:40.626Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.51",
+        "types": "1.0.0-alpha.51"
+      }
+    }
+  }
+}
