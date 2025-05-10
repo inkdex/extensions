@@ -1,0 +1,50 @@
+name: Enhancement Suggestion
+description: If you have an enhancement suggestion for an extension in the registry, please use the following template to suggest it and help us improve it.
+labels:
+    - "enhancement"
+    - "needs triage"
+assignees: []
+body:
+    - type: markdown
+      id: message
+      attributes:
+          value: Thanks for taking the time to fill out this enhancement suggestion!
+    - type: checkboxes
+      id: preflight-checklist
+      attributes:
+          label: Preflight Checklist
+          description: Please ensure you've completed all of the following.
+          options:
+              - label: I have read and agree to follow the [code of conduct](https://github.com/inkdex/extensions?tab=coc-ov-file#readme).
+                required: true
+              - label: I have read and agree to follow the [support guidelines](https://github.com/inkdex/extensions/blob/master/.github/SUPPORT.md).
+                required: true
+              - label: I have searched the [issue tracker](https://github.com/inkdex/extensions/issues?q=label%3Aenhancement) for an enhancement suggestion that matches the one I want to file, without success.
+                required: true
+    - type: textarea
+      id: enhancement-description
+      attributes:
+          label: Describe the Enhancement
+          description: A clear and concise description of the enhancement you would like to see added.
+          placeholder: Tell us about the enhancement!
+      validations:
+          required: true
+    - type: textarea
+      id: enhancement-motivation
+      attributes:
+          label: Enhancement Motivation
+          description: Explain how the enhancement will improve an extension in this repository.
+          placeholder: Tell us the about the benefits it will bring!
+      validations:
+          required: true
+    - type: textarea
+      id: extra-info
+      attributes:
+          label: Anything Else?
+          description: |
+              Images or links? Anything that will give us more context about the enhancement which you are suggesting!
+
+              Tip: You can attach images or any other file by clicking this area to highlight it and then dragging files in.
+          placeholder: Images, links, ...
+      validations:
+          required: false
