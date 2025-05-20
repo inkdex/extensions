@@ -1,0 +1,88 @@
+{
+  "general-extensions": {
+    "AsuraScans": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "BatoTo": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "ComicK": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "MangaDex": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "MangaFire": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "MangaFox": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "MangaKatana": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "MangaPlus": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "Mangapill": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "Mgeko": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "Webtoon": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    },
+    "WeebCentral": {
+      "build_time": "2025-05-20T01:39:46.198Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    }
+  }
+}

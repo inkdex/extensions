@@ -1,0 +1,291 @@
+{
+  "buildTime": "2025-05-20T01:40:11.456Z",
+  "builtWith": {
+    "toolchain": "1.0.0-alpha.52",
+    "types": "1.0.0-alpha.52"
+  },
+  "repository": {
+    "name": "Inkdex Extensions (0.9)",
+    "description": "All extensions from the Inkdex community in a single repository."
+  },
+  "sources": [
+    {
+      "id": "AsuraScans",
+      "name": "Asura Scans",
+      "description": "Extension that pulls content from asuracomic.net.",
+      "version": "1.0.0-alpha.7",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        32,
+        64
+      ],
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
+      "id": "BatoTo",
+      "name": "Bato.To",
+      "description": "Extension that pulls content from bato.to.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "ADULT",
+      "badges": [],
+      "capabilities": [
+        32,
+        4,
+        64,
+        1
+      ],
+      "developers": [
+        {
+          "name": "Egwau",
+          "website": null,
+          "github": null
+        }
+      ]
+    },
+    {
+      "id": "ComicK",
+      "name": "ComicK",
+      "description": "Extension that pulls content from comick.io.",
+      "version": "1.0.0-alpha.9",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        4,
+        1,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "MangaDex",
+      "name": "MangaDex",
+      "description": "Extension that pulls content from mangadex.org.",
+      "version": "1.0.0-alpha.16",
+      "icon": "icon.png",
+      "language": null,
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        8,
+        1,
+        4,
+        64,
+        32,
+        2
+      ],
+      "developers": [
+        {
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "MangaFire",
+      "name": "MangaFire",
+      "description": "Extension that pulls content from mangafire.to.",
+      "version": "1.0.0-alpha.4",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        4,
+        64,
+        1
+      ],
+      "developers": [
+        {
+          "name": "Karrot",
+          "website": null,
+          "github": null
+        },
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": null
+        }
+      ]
+    },
+    {
+      "id": "MangaFox",
+      "name": "MangaFox",
+      "description": "Extension that pulls content from fanfox.net.",
+      "version": "1.0.0-alpha.2",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "MATURE",
+      "badges": [],
+      "capabilities": [
+        4,
+        64,
+        1
+      ],
+      "developers": [
+        {
+          "name": "Egwau",
+          "website": null,
+          "github": null
+        }
+      ]
+    },
+    {
+      "id": "MangaKatana",
+      "name": "MangaKatana",
+      "description": "Extension that pulls content from mangakatana.com.",
+      "version": "1.0.0-alpha.5",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "MATURE",
+      "badges": [],
+      "capabilities": [
+        4,
+        64,
+        1
+      ],
+      "developers": [
+        {
+          "name": "Egwau",
+          "website": null,
+          "github": null
+        }
+      ]
+    },
+    {
+      "id": "MangaPlus",
+      "name": "MangaPlus",
+      "description": "Extension that pulls content from mangaplus.shueisha.co.jp.",
+      "version": "1.0.0-alpha.3",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        32,
+        64
+      ],
+      "developers": [
+        {
+          "name": "Yves Pa",
+          "website": null,
+          "github": "https://github.com/YvesPa"
+        }
+      ]
+    },
+    {
+      "id": "Mangapill",
+      "name": "Mangapill",
+      "description": "Extension that pulls content from mangapill.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        64
+      ],
+      "developers": [
+        {
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "Mgeko",
+      "name": "Mgeko",
+      "description": "Extension that pulls content from mgeko.cc.",
+      "version": "1.0.0-alpha.6",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        16,
+        4,
+        1,
+        64
+      ],
+      "developers": [
+        {
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "Webtoon",
+      "name": "Webtoon",
+      "description": "Extension that pulls content from webtoons.com",
+      "version": "1.0.0-alpha.6",
+      "icon": "icon.png",
+      "language": null,
+      "contentRating": "MATURE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        32,
+        64
+      ],
+      "developers": [
+        {
+          "name": "Yves Pa",
+          "website": null,
+          "github": "https://github.com/YvesPa"
+        }
+      ]
+    },
+    {
+      "id": "WeebCentral",
+      "name": "Weeb Central",
+      "description": "Extension that pulls content from weebcentral.com.",
+      "version": "1.0.0-alpha.3",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        64
+      ],
+      "developers": [
+        {
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
+        }
+      ]
+    }
+  ]
+}
