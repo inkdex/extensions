@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-05-20T01:41:43.164Z",
+  "buildTime": "2025-05-20T01:43:53.905Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.52",
     "types": "1.0.0-alpha.52"
@@ -70,6 +70,24 @@
       ]
     },
     {
+      "id": "AstraScans",
+      "name": "Astra Scans",
+      "description": "Extension that pulls content from astrascans.org.",
+      "version": "1.0.0-alpha.5",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
       "id": "AsuraScans",
       "name": "Asura Scans",
       "description": "Extension that pulls content from asuracomic.net.",
@@ -84,6 +102,24 @@
         32,
         64
       ],
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
+      "id": "AsuraScansFree",
+      "name": "Asura Scans Free",
+      "description": "The asurascansfree.com extension.",
+      "version": "1.0.0-alpha.4",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
       "developers": [
         {
           "name": "nyzzik",
@@ -181,6 +217,24 @@
       ]
     },
     {
+      "id": "CypherScans",
+      "name": "Cypher Scans",
+      "description": "Extension that pulls content from cypheroscans.xyz.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
       "id": "DarkScans",
       "name": "DarkScans",
       "description": "Extension that pulls content from darkscans.net.",
@@ -213,6 +267,42 @@
           "name": "Netsky",
           "website": null,
           "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
+      "id": "DrakeScans",
+      "name": "Drake Scans",
+      "description": "Extension that pulls content from drakecomic.org.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
+      "id": "ElarcToons",
+      "name": "Elarc Toons",
+      "description": "Extension that pulls content from elarctoons.biz.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
         }
       ]
     },
@@ -253,6 +343,24 @@
       ]
     },
     {
+      "id": "Hentai20",
+      "name": "Hentai20",
+      "description": "Extension that pulls content from hentai20.io.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.jpg",
+      "language": "en",
+      "contentRating": "ADULT",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
       "id": "HiperDex",
       "name": "HiperDex",
       "description": "Extension that pulls content from hiperdex.com.",
@@ -267,6 +375,24 @@
           "name": "Netsky",
           "website": null,
           "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
+      "id": "IgnisComic",
+      "name": "Ignis Comic",
+      "description": "Extension that pulls content from manhuaga.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
         }
       ]
     },
@@ -331,6 +457,24 @@
       ]
     },
     {
+      "id": "LelManga",
+      "name": "LelManga",
+      "description": "Extension that pulls content from lelmanga.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "fr",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
       "id": "LilyManga",
       "name": "LilyManga",
       "description": "Extension that pulls content from lilymanga.net.",
@@ -345,6 +489,30 @@
           "name": "Netsky",
           "website": null,
           "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
+      "id": "LunarScans",
+      "name": "Lunar Scans",
+      "description": "Extension that pulls content from lunarscan.org.",
+      "version": "1.0.0-alpha.4",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "ADULT",
+      "badges": [
+        {
+          "label": "18+",
+          "textColor": "#000000",
+          "backgroundColor": "#FF0000"
+        }
+      ],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
         }
       ]
     },
@@ -784,6 +952,30 @@
       ]
     },
     {
+      "id": "ManhwaX",
+      "name": "ManhwaX",
+      "description": "Extension that pulls content from manhwax.top.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.jpg",
+      "language": "en",
+      "contentRating": "ADULT",
+      "badges": [
+        {
+          "label": "18+",
+          "textColor": "#000000",
+          "backgroundColor": "#FF0000"
+        }
+      ],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
       "id": "Mgeko",
       "name": "Mgeko",
       "description": "Extension that pulls content from mgeko.cc.",
@@ -803,6 +995,24 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "MythicScans",
+      "name": "Mythic Scans",
+      "description": "Extension that pulls content from mythicscans.net.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 101,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
         }
       ]
     },
@@ -843,6 +1053,24 @@
       ]
     },
     {
+      "id": "NightScans",
+      "name": "Night Scans",
+      "description": "Extension that pulls content from nightsup.net.",
+      "version": "1.0.0-alpha.4",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 101,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
       "id": "NovelMic",
       "name": "NovelMic",
       "description": "Extension that pulls content from novelmic.com.",
@@ -875,6 +1103,24 @@
           "name": "Netsky",
           "website": null,
           "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
+      "id": "RawKuma",
+      "name": "RawKuma",
+      "description": "Extension that pulls content from rawkuma.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
         }
       ]
     },
@@ -939,6 +1185,24 @@
       ]
     },
     {
+      "id": "SushiScans",
+      "name": "SushiScans",
+      "description": "Extension that pulls content from sushiscan.net.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
       "id": "TheBlank",
       "name": "TheBlank",
       "description": "Extension that pulls content from theblank.net.",
@@ -953,6 +1217,24 @@
           "name": "Netsky",
           "website": null,
           "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
+      "id": "Thunderscans",
+      "name": "Thunderscans",
+      "description": "Extension that pulls content from en-thunderscans.com.",
+      "version": "1.0.0-alpha.6",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
         }
       ]
     },
@@ -1070,6 +1352,24 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "xCalibrScans",
+      "name": "xCalibrScans",
+      "description": "Extension that pulls content from xcalibrscans.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
         }
       ]
     }
