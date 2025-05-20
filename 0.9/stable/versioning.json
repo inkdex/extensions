@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-05-20T01:40:11.456Z",
+  "buildTime": "2025-05-20T01:40:34.306Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.52",
     "types": "1.0.0-alpha.52"
@@ -79,6 +79,24 @@
       ]
     },
     {
+      "id": "MangaBatCOM",
+      "name": "MangaBatCOM",
+      "description": "Extension that pulls content from mangabat.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇬🇧",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "Netsky",
+          "website": null,
+          "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
       "id": "MangaDex",
       "name": "MangaDex",
       "description": "Extension that pulls content from mangadex.org.",
@@ -153,6 +171,24 @@
       ]
     },
     {
+      "id": "MangaKakalotGG",
+      "name": "MangaKakalotGG",
+      "description": "Extension that pulls content from mangakakalot.gg.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇬🇧",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "Netsky",
+          "website": null,
+          "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
       "id": "MangaKatana",
       "name": "MangaKatana",
       "description": "Extension that pulls content from mangakatana.com.",
@@ -171,6 +207,24 @@
           "name": "Egwau",
           "website": null,
           "github": null
+        }
+      ]
+    },
+    {
+      "id": "MangaNatoGG",
+      "name": "MangaNatoGG",
+      "description": "Extension that pulls content from manganato.gg.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇬🇧",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "Netsky",
+          "website": null,
+          "github": "https://github.com/TheNetsky"
         }
       ]
     },
@@ -239,6 +293,42 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "NatoMangaCOM",
+      "name": "NatoMangaCOM",
+      "description": "Extension that pulls content from natomanga.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇬🇧",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "Netsky",
+          "website": null,
+          "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
+      "id": "NeloMangaNET",
+      "name": "NeloMangaNET",
+      "description": "Extension that pulls content from nelomanga.net.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇬🇧",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "Netsky",
+          "website": null,
+          "github": "https://github.com/TheNetsky"
         }
       ]
     },
