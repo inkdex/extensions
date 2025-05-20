@@ -368,5 +368,14 @@
         "types": "1.0.0-alpha.52"
       }
     }
+  },
+  "tracker-extensions": {
+    "AniList": {
+      "build_time": "2025-05-19T21:49:47.969Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.52",
+        "types": "1.0.0-alpha.52"
+      }
+    }
   }
 }
