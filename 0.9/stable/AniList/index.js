@@ -1853,7 +1853,7 @@ var source = (() => {
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.LabelRow = LabelRow3;
       exports.InputRow = InputRow2;
-      exports.StepperRow = StepperRow;
+      exports.StepperRow = StepperRow2;
       exports.ToggleRow = ToggleRow2;
       exports.SelectRow = SelectRow2;
       exports.ButtonRow = ButtonRow3;
@@ -1867,7 +1867,7 @@ var source = (() => {
       function InputRow2(id, props) {
         return { ...props, id, type: "inputRow", isHidden: props.isHidden ?? false };
       }
-      function StepperRow(id, props) {
+      function StepperRow2(id, props) {
         return {
           ...props,
           id,
@@ -3100,6 +3100,7 @@ query Query(
         large
         medium
       }
+      format
       genres
       id
       isAdult
@@ -3118,9 +3119,14 @@ query Query(
   // src/AniList/GraphQL/General.ts
   init_buffer();
   var CountryCode = {
-    JP: { id: "JP" },
-    KR: { id: "KR" },
-    CN: { id: "CN" }
+    JP: "JP",
+    KR: "KR",
+    CN: "CN"
+  };
+  var MediaFormat = {
+    MANGA: { id: "MANGA", label: "Manga" },
+    NOVEL: { id: "NOVEL", label: "Novel" },
+    ONE_SHOT: { id: "ONE_SHOT", label: "One Shot" }
   };
   var MediaStatus = {
     FINISHED: { id: "FINISHED", label: "Finished" },
@@ -3200,7 +3206,13 @@ query Query(
         Buffer2.from(token.split(".")[1], "base64").toString()
       );
       if (Number(payload.exp) < (/* @__PURE__ */ new Date()).valueOf() / 1e3) {
-        Application.setSecureState(void 0, "session");
+        Application.setSecureState(null, "session");
+        Application.setState(null, "viewer-id");
+        Application.setState(null, "viewer-advanced-scoring");
+        Application.setState(null, "viewer-list-order");
+        Application.setState(null, "viewer-custom-lists");
+        Application.setState(null, "viewer-split-completed-list-by-format");
+        Application.setState(null, "viewer-advanced-scoring-enabled");
         throw new Error(
           "Your authorization token has expired, please log back in through the AniList settings"
         );
@@ -3235,7 +3247,15 @@ query Query(
     const json = await makeRequest(query, false, queryVariables);
     const searchResults = json.Page.media;
     for (const searchResult of searchResults) {
-      const title = searchResult.title.english ?? searchResult.title.native ?? searchResult.title.romaji ?? "No Title";
+      let title = "";
+      switch (searchResult.format) {
+        case "NOVEL":
+          title += "(" + MediaFormat.NOVEL.label + ") ";
+          break;
+        case "ONE_SHOT":
+          title += "(" + MediaFormat.ONE_SHOT.label + ") ";
+      }
+      title += searchResult.title.english ?? searchResult.title.romaji ?? searchResult.title.native ?? "No Title";
       const contentRating = searchResult.isAdult ? import_types.ContentRating.ADULT : searchResult.genres.some((e) => e == "ecchi") ? import_types.ContentRating.MATURE : import_types.ContentRating.EVERYONE;
       let subtitle;
       switch (searchResult.status) {
@@ -3337,11 +3357,11 @@ query Query(
           break;
         case "popular-manga":
           sort = MediaSort.POPULARITY_DESC.id;
-          countryOfOrigin = CountryCode.JP.id;
+          countryOfOrigin = CountryCode.JP;
           break;
         case "popular-manhwa":
           sort = MediaSort.POPULARITY_DESC.id;
-          countryOfOrigin = CountryCode.KR.id;
+          countryOfOrigin = CountryCode.KR;
           break;
         case "top-100-manga":
           sort = MediaSort.SCORE_DESC.id;
@@ -3377,6 +3397,7 @@ query Query($id: Int) {
       medium
     }
     description
+    format
     genres
     isAdult
     staff {
@@ -3483,6 +3504,9 @@ query Query($id: Int) {
       if (mangaDetails.bannerImage != null) {
         artworkUrls.push(mangaDetails.bannerImage);
       }
+      const additionalInfo = {
+        Format: mangaDetails.format == MediaFormat.MANGA.id ? MediaFormat.MANGA.label : mangaDetails.format == MediaFormat.NOVEL.id ? MediaFormat.NOVEL.label : MediaFormat.ONE_SHOT.label
+      };
       return {
         mangaId,
         mangaInfo: {
@@ -3498,7 +3522,8 @@ query Query($id: Int) {
           rating,
           tagGroups,
           artworkUrls,
-          shareUrl: "https://anilist.co/manga/" + mangaId
+          shareUrl: "https://anilist.co/manga/" + mangaId,
+          additionalInfo
         }
       };
     }
@@ -3609,38 +3634,23 @@ mutation Mutation($deleteMediaListEntryId: Int) {
 }
 `;
 
-  // src/AniList/GraphQL/Viewer.ts
-  init_buffer();
-  var viewerQuery = `
-query Query {
-	Viewer {
-		avatar {
-			large
-		}
-    createdAt
-		id
-		name
-	}
-}
-`;
-
   // src/AniList/Implementations/MangaProgress/form.ts
   init_buffer();
   var import_types4 = __toESM(require_lib(), 1);
   var TrackingForm = class extends import_types4.Form {
-    viewer;
+    viewerId;
     sourceMangaId;
     loadRequest;
     titleProgress;
     error;
-    constructor(viewer, sourceMangaId) {
+    constructor(viewerId, sourceMangaId) {
       super();
-      this.viewer = viewer;
+      this.viewerId = viewerId;
       this.sourceMangaId = sourceMangaId;
     }
     formWillAppear() {
       const queryVariables = {
-        userId: this.viewer.Viewer.id,
+        userId: this.viewerId,
         mediaId: this.sourceMangaId
       };
       this.loadRequest = makeRequest(titleProgressQuery, true, queryVariables).then((titleProgress) => {
@@ -3690,7 +3700,7 @@ query Query {
       }
       const titleProgress = this.titleProgress.MediaList;
       const mutationVariables = {
-        userId: this.viewer.Viewer.id,
+        userId: this.viewerId,
         mediaId: this.sourceMangaId,
         status: titleProgress.status,
         score: titleProgress.score,
@@ -3783,7 +3793,13 @@ query Query {
       };
       const chapterProgressProps = {
         title: "Chapters",
-        value: titleProgress.progress.toString(),
+        subtitle: "The highest read chapter number",
+        //@ts-expect-error temp until @paperback/types is updated
+        value: titleProgress.progress,
+        minValue: 0,
+        maxValue: 99999,
+        stepValue: 1,
+        loopOver: false,
         onValueChange: Application.Selector(
           this,
           "chapterProgressUpdate"
@@ -3791,7 +3807,13 @@ query Query {
       };
       const volumeProgressProps = {
         title: "Volumes",
-        value: titleProgress.progressVolumes.toString(),
+        subtitle: "The highest read volume number",
+        //@ts-expect-error temp until @paperback/types is updated
+        value: titleProgress.progressVolumes,
+        minValue: 0,
+        maxValue: 99999,
+        stepValue: 1,
+        loopOver: false,
         onValueChange: Application.Selector(
           this,
           "volumeProgressUpdate"
@@ -3799,24 +3821,24 @@ query Query {
       };
       const rereadCountProps = {
         title: "Reread Count",
-        value: titleProgress.repeat.toString(),
+        subtitle: "The amount of times you have reread the title",
+        //@ts-expect-error temp until @paperback/types is updated
+        value: titleProgress.repeat,
+        minValue: 0,
+        maxValue: 99999,
+        stepValue: 1,
+        loopOver: false,
         onValueChange: Application.Selector(
           this,
           "rereadCountUpdate"
         )
       };
       return [
-        (0, import_types4.Section)({ id: "status", header: "Status" }, [
-          (0, import_types4.SelectRow)("status", statusProps)
-        ]),
-        (0, import_types4.Section)({ id: "chapterProgress", header: "Chapter Progress" }, [
-          (0, import_types4.InputRow)("chapterProgress", chapterProgressProps)
-        ]),
-        (0, import_types4.Section)({ id: "volumeProgress", header: "Volume Progress" }, [
-          (0, import_types4.InputRow)("volumeProgress", volumeProgressProps)
-        ]),
-        (0, import_types4.Section)({ id: "rereadCount", header: "Reread Count" }, [
-          (0, import_types4.InputRow)("rereadCount", rereadCountProps)
+        (0, import_types4.Section)({ id: "progress", header: "Progress" }, [
+          (0, import_types4.SelectRow)("status", statusProps),
+          (0, import_types4.StepperRow)("chapterProgress", chapterProgressProps),
+          (0, import_types4.StepperRow)("volumeProgress", volumeProgressProps),
+          (0, import_types4.StepperRow)("rereadCount", rereadCountProps)
         ])
       ];
     }
@@ -3824,33 +3846,27 @@ query Query {
       this.titleProgress.MediaList.status = newStatus[0];
     }
     async chapterProgressUpdate(newChapterProgress) {
-      const chapterProgress = Number(newChapterProgress);
-      if (isNaN(chapterProgress)) {
-        this.reloadForm();
-        return;
-      }
-      this.titleProgress.MediaList.progress = chapterProgress;
+      this.titleProgress.MediaList.progress = newChapterProgress;
+      this.reloadForm();
     }
     async volumeProgressUpdate(newVolumeProgress) {
-      const volumeProgress = Number(newVolumeProgress);
-      if (isNaN(volumeProgress)) {
-        this.reloadForm();
-        return;
-      }
-      this.titleProgress.MediaList.progressVolumes = volumeProgress;
+      this.titleProgress.MediaList.progressVolumes = newVolumeProgress;
+      this.reloadForm();
     }
     async rereadCountUpdate(newRereadCount) {
-      const rereadCount = Number(newRereadCount);
-      if (isNaN(rereadCount)) {
-        this.reloadForm();
-        return;
-      }
-      this.titleProgress.MediaList.repeat = rereadCount;
+      this.titleProgress.MediaList.repeat = newRereadCount;
+      this.reloadForm();
     }
     getScoreSections() {
       const scoreProps = {
-        title: "Score ",
-        value: this.titleProgress.MediaList.score.toString(),
+        title: "Score",
+        subtitle: "",
+        //@ts-expect-error temp until @paperback/types is updated
+        value: this.titleProgress.MediaList.score,
+        minValue: 0,
+        maxValue: 10,
+        stepValue: 0.1,
+        loopOver: false,
         onValueChange: Application.Selector(
           this,
           "scoreUpdate"
@@ -3858,17 +3874,13 @@ query Query {
       };
       return [
         (0, import_types4.Section)({ id: "score", header: "Score" }, [
-          (0, import_types4.InputRow)("score", scoreProps)
+          (0, import_types4.StepperRow)("score", scoreProps)
         ])
       ];
     }
     async scoreUpdate(newScore) {
-      const score = Number(newScore);
-      if (isNaN(score) || 0 > score || score > 10) {
-        this.reloadForm();
-        return;
-      }
-      this.titleProgress.MediaList.score = score;
+      this.titleProgress.MediaList.score = Number(newScore.toFixed(1));
+      this.reloadForm();
     }
     getPrivacySection() {
       const titleProgress = this.titleProgress.MediaList;
@@ -3977,18 +3989,28 @@ query Query {
   // src/AniList/Implementations/MangaProgress/main.ts
   var MangaProgressImplementation = class {
     async getMangaProgressManagementForm(sourceManga) {
-      const viewer = await makeRequest(viewerQuery, true);
-      return new TrackingForm(viewer, Number(sourceManga.mangaId));
+      const viewerId = Number(Application.getState("viewer-id"));
+      if (isNaN(viewerId)) {
+        throw new Error(
+          "You are not authenticated, please log in through the AniList settings"
+        );
+      }
+      return new TrackingForm(viewerId, Number(sourceManga.mangaId));
     }
     async getMangaProgress(sourceManga) {
-      const viewer = await makeRequest(viewerQuery, true);
+      const viewerId = Number(Application.getState("viewer-id"));
+      if (isNaN(viewerId)) {
+        throw new Error(
+          "You are not authenticated, please log in through the AniList settings"
+        );
+      }
       const queryVariables = {
-        userId: viewer.Viewer.id,
+        userId: viewerId,
         mediaId: Number(sourceManga.mangaId)
       };
       let mediaList;
       try {
-        const json = await makeRequest(titleProgressQuery, false, queryVariables);
+        const json = await makeRequest(titleProgressQuery, true, queryVariables);
         mediaList = json.MediaList;
       } catch (error) {
         if (!error?.toString().includes("[404]")) {
@@ -4013,20 +4035,36 @@ query Query {
       return mangaProgress;
     }
     async processChapterReadActionQueue(actions) {
-      const viewer = await makeRequest(viewerQuery, true);
+      const viewerId = Number(Application.getState("viewer-id"));
       const prog = {
         successfulItems: [],
         failedItems: []
       };
+      if (isNaN(viewerId)) {
+        return prog;
+      }
+      const latestChapters = /* @__PURE__ */ new Map();
       for (const action of actions) {
+        if (latestChapters.get(action.sourceManga.mangaId) ?? 0 < Math.floor(action.readChapter.chapNum)) {
+          latestChapters.set(
+            action.sourceManga.mangaId,
+            Math.floor(action.readChapter.chapNum)
+          );
+        }
+      }
+      for (const action of actions) {
+        if (latestChapters.get(action.sourceManga.mangaId) != action.readChapter.chapNum) {
+          prog.successfulItems.push(action.sourceManga.mangaId);
+          continue;
+        }
         try {
           const queryVariables = {
-            userId: viewer.Viewer.id,
+            userId: viewerId,
             mediaId: Number(action.sourceManga.mangaId)
           };
           let mediaList;
           try {
-            const json = await makeRequest(titleProgressQuery, false, queryVariables);
+            const json = await makeRequest(titleProgressQuery, true, queryVariables);
             mediaList = json.MediaList;
           } catch (error) {
             if (!error?.toString().includes("[404]")) {
@@ -4039,16 +4077,16 @@ query Query {
             continue;
           }
           const mutationVariables = {
-            userId: viewer.Viewer.id,
+            userId: viewerId,
             mediaId: Number(action.sourceManga.mangaId),
-            progress: action.readChapter.chapNum
+            progress: Math.floor(action.readChapter.chapNum)
           };
           if (!mediaList?.progressVolumes || action.readChapter.volume && mediaList.progressVolumes >= action.readChapter.volume) {
-            mutationVariables.progressVolumes = action.readChapter.volume ?? 1;
+            mutationVariables.progressVolumes = Math.floor(action.readChapter.volume ?? 1) - 1;
           }
           if (!mediaList) {
             mutationVariables.status = MediaListStatus.CURRENT.id;
-            mutationVariables.progressVolumes = action.readChapter.volume ?? 1;
+            mutationVariables.progressVolumes = Math.floor(action.readChapter.volume ?? 1) - 1;
           }
           await makeRequest(titleProgressMutationMutation, true, mutationVariables);
           prog.successfulItems.push(action.sourceManga.mangaId);
@@ -4095,7 +4133,7 @@ query Query {
         page: metadata ?? 1,
         sort: sortingOption.id
       };
-      if (query.title != void 0) {
+      if (query.title) {
         variables.search = query.title;
       }
       return getItems(
@@ -4112,6 +4150,44 @@ query Query {
   // src/AniList/Implementations/SettingsForm/form.ts
   init_buffer();
   var import_types5 = __toESM(require_lib(), 1);
+
+  // src/AniList/GraphQL/Viewer.ts
+  init_buffer();
+  var viewerQuery = `
+query Query {
+  Viewer {
+    avatar {
+      large
+    }
+    createdAt
+    id
+    name
+    mediaListOptions {
+      rowOrder
+      scoreFormat
+      mangaList {
+        advancedScoringEnabled
+        advancedScoring
+        customLists
+        splitCompletedSectionByFormat
+        sectionOrder
+      }
+    }
+    options {
+      activityMergeTime
+      disabledListActivity {
+        disabled
+        type
+      }
+      displayAdultContent
+      staffNameLanguage
+      titleLanguage
+    }
+  }
+}
+`;
+
+  // src/AniList/Implementations/SettingsForm/form.ts
   var SettingsForm = class extends import_types5.Form {
     getSections() {
       if (Application.getSecureState("session") == void 0) {
@@ -4156,10 +4232,48 @@ query Query {
     }
     async handleLoginSuccess(accessToken) {
       Application.setSecureState(accessToken, "session");
+      const viewer = await makeRequest(viewerQuery, true);
+      Application.setState(viewer.Viewer.id, "viewer-id");
+      Application.setState(
+        JSON.stringify(
+          viewer.Viewer.mediaListOptions.mangaList.advancedScoring
+        ),
+        "viewer-advanced-scoring"
+      );
+      Application.setState(
+        JSON.stringify(
+          viewer.Viewer.mediaListOptions.mangaList.sectionOrder
+        ),
+        "viewer-list-order"
+      );
+      Application.setState(
+        JSON.stringify(
+          viewer.Viewer.mediaListOptions.mangaList.customLists
+        ),
+        "viewer-custom-lists"
+      );
+      Application.setState(
+        String(
+          viewer.Viewer.mediaListOptions.mangaList.splitCompletedSectionByFormat
+        ),
+        "viewer-split-completed-list-by-format"
+      );
+      Application.setState(
+        String(
+          viewer.Viewer.mediaListOptions.mangaList.advancedScoringEnabled
+        ),
+        "viewer-advanced-scoring-enabled"
+      );
       this.reloadForm();
     }
     async logOut() {
       Application.setSecureState(null, "session");
+      Application.setState(null, "viewer-id");
+      Application.setState(null, "viewer-advanced-scoring");
+      Application.setState(null, "viewer-list-order");
+      Application.setState(null, "viewer-custom-lists");
+      Application.setState(null, "viewer-split-completed-list-by-format");
+      Application.setState(null, "viewer-advanced-scoring-enabled");
       this.reloadForm();
     }
   };
