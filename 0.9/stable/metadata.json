@@ -485,10 +485,10 @@
   },
   "tracker-extensions": {
     "AniList": {
-      "build_time": "2025-05-23T21:20:35.030Z",
+      "build_time": "2025-05-24T15:22:48.819Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.53",
+        "types": "1.0.0-alpha.53"
       }
     }
   }

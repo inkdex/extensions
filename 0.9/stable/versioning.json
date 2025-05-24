@@ -1,8 +1,8 @@
 {
-  "buildTime": "2025-05-23T21:20:54.640Z",
+  "buildTime": "2025-05-24T15:23:07.211Z",
   "builtWith": {
-    "toolchain": "1.0.0-alpha.52",
-    "types": "1.0.0-alpha.52"
+    "toolchain": "1.0.0-alpha.53",
+    "types": "1.0.0-alpha.53"
   },
   "repository": {
     "name": "Inkdex Extensions (0.9)",
@@ -31,7 +31,7 @@
       "id": "AniList",
       "name": "AniList",
       "description": "Extension that integrates with anilist.co for tracking and collection management.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
