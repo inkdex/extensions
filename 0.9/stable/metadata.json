@@ -485,7 +485,7 @@
   },
   "tracker-extensions": {
     "AniList": {
-      "build_time": "2025-05-26T02:01:20.402Z",
+      "build_time": "2025-06-05T22:36:40.342Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.53",
         "types": "1.0.0-alpha.53"
