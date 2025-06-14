@@ -71,10 +71,10 @@
       }
     },
     "Webtoon": {
-      "build_time": "2025-05-20T01:39:46.198Z",
+      "build_time": "2025-06-14T10:53:52.499Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.53",
+        "types": "1.0.0-alpha.53"
       }
     },
     "WeebCentral": {
