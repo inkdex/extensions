@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-07-16T14:12:40.822Z",
+  "buildTime": "2025-07-16T16:51:58.700Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.53",
     "types": "1.0.0-alpha.53"
@@ -591,6 +591,24 @@
           "name": "Netsky",
           "website": null,
           "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
+      "id": "MangaDemon",
+      "name": "MangaDemon",
+      "description": "Extension that pulls content from demonicscans.org.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇺🇸",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 101,
+      "developers": [
+        {
+          "name": "samipmainali",
+          "website": null,
+          "github": "https://github.com/samipmainali"
         }
       ]
     },
@@ -1371,6 +1389,24 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "Zzizz",
+      "name": "Zzizz",
+      "description": "Extension that pulls content from zzizz.xyz.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇺🇸",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 101,
+      "developers": [
+        {
+          "name": "samipmainali",
+          "website": null,
+          "github": "https://github.com/samipmainali"
         }
       ]
     },

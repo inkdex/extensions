@@ -21,6 +21,13 @@
         "types": "1.0.0-alpha.53"
       }
     },
+    "MangaDemon": {
+      "build_time": "2025-07-16T16:51:40.579Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.53",
+        "types": "1.0.0-alpha.53"
+      }
+    },
     "MangaDex": {
       "build_time": "2025-06-08T09:27:52.283Z",
       "built_with": {
@@ -82,6 +89,13 @@
       "built_with": {
         "toolchain": "1.0.0-alpha.52",
         "types": "1.0.0-alpha.52"
+      }
+    },
+    "Zzizz": {
+      "build_time": "2025-07-16T16:51:40.579Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.53",
+        "types": "1.0.0-alpha.53"
       }
     }
   },
