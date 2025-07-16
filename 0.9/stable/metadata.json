@@ -15,7 +15,7 @@
       }
     },
     "ComicK": {
-      "build_time": "2025-06-14T10:49:49.574Z",
+      "build_time": "2025-07-16T14:12:02.244Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.53",
         "types": "1.0.0-alpha.53"
@@ -64,7 +64,7 @@
       }
     },
     "Mgeko": {
-      "build_time": "2025-05-26T01:30:10.413Z",
+      "build_time": "2025-07-16T14:12:02.244Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.53",
         "types": "1.0.0-alpha.53"
