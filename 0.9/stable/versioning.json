@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-07-18T14:16:25.323Z",
+  "buildTime": "2025-07-20T08:54:43.966Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.53",
     "types": "1.0.0-alpha.53"
@@ -197,7 +197,7 @@
       "id": "ComicK",
       "name": "ComicK",
       "description": "Extension that pulls content from comick.io.",
-      "version": "1.0.0-alpha.15",
+      "version": "1.0.0-alpha.16",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
