@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-07-20T08:58:13.220Z",
+  "buildTime": "2025-07-22T21:51:43.806Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.53",
     "types": "1.0.0-alpha.53"
@@ -364,7 +364,7 @@
       "id": "HiperDex",
       "name": "HiperDex",
       "description": "Extension that pulls content from hiperdex.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
       "language": "🇬🇧",
       "contentRating": "ADULT",

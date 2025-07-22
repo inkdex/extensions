@@ -157,10 +157,10 @@
       }
     },
     "HiperDex": {
-      "build_time": "2025-05-20T01:04:35.360Z",
+      "build_time": "2025-07-22T21:51:23.563Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.53",
+        "types": "1.0.0-alpha.53"
       }
     },
     "KunManga": {
