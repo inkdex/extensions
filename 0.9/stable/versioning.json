@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-08-04T16:21:57.002Z",
+  "buildTime": "2025-08-08T17:23:14.973Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.53",
     "types": "1.0.0-alpha.53"
@@ -31,7 +31,7 @@
       "id": "AniList",
       "name": "AniList",
       "description": "Extension that integrates with anilist.co for tracking and collection management.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.8",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
