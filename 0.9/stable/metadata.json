@@ -14,13 +14,6 @@
         "types": "1.0.0-alpha.52"
       }
     },
-    "ComicK": {
-      "build_time": "2025-08-03T20:48:53.195Z",
-      "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
-      }
-    },
     "MangaDemon": {
       "build_time": "2025-07-16T16:51:40.579Z",
       "built_with": {
