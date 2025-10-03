@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-09-24T11:59:53.879Z",
+  "buildTime": "2025-10-03T22:19:56.002Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.53",
     "types": "1.0.0-alpha.53"
@@ -156,7 +156,7 @@
       "id": "BatoTo",
       "name": "Bato.To",
       "description": "Extension that pulls content from bato.to.",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
@@ -618,7 +618,7 @@
       "id": "MangaFire",
       "name": "MangaFire",
       "description": "Extension that pulls content from mangafire.to.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.6",
       "icon": "icon.png",
       "language": "multi",
       "contentRating": "SAFE",
