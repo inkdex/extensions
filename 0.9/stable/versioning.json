@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-10-03T22:19:56.002Z",
+  "buildTime": "2025-10-04T15:31:29.147Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.53",
     "types": "1.0.0-alpha.53"
@@ -91,7 +91,7 @@
       "id": "AsuraScans",
       "name": "Asura Scans",
       "description": "Extension that pulls content from asuracomic.net.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.8",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
