@@ -8,7 +8,7 @@
       }
     },
     "BatoTo": {
-      "build_time": "2025-10-03T22:19:31.756Z",
+      "build_time": "2025-10-06T12:19:45.414Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.53",
         "types": "1.0.0-alpha.53"
@@ -64,7 +64,7 @@
       }
     },
     "Mgeko": {
-      "build_time": "2025-09-18T16:11:39.725Z",
+      "build_time": "2025-10-06T12:19:45.414Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.53",
         "types": "1.0.0-alpha.53"
