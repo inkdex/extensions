@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-10-06T12:20:05.008Z",
+  "buildTime": "2025-10-06T18:27:06.821Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.53",
     "types": "1.0.0-alpha.53"
@@ -1184,7 +1184,7 @@
       "id": "ScyllaComics",
       "name": "Scylla Comics",
       "description": "Extension that pulls content from scyllacomics.xyz.",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.2",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
