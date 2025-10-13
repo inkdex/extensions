@@ -84,7 +84,7 @@ helps ensure readability, maintainability, and predictability across extensions.
 ```sh
 .
 ├── forms.ts
-├── helpers.ts
+├── utils.ts
 ├── main.ts
 ├── models.ts
 ├── network.ts
@@ -101,34 +101,34 @@ directory may be required; the `shared` directory is optional):
 .
 ├── implementations
 │   ├── discover-section
-│   │   ├── helpers.ts
+│   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
 │   ├── manga
-│   │   ├── helpers.ts
+│   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
 │   ├── manga-progress
 │   │   ├── forms.ts
-│   │   ├── helpers.ts
+│   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
 │   ├── search-results
-│   │   ├── helpers.ts
+│   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
 │   ├── settings-form
 │   │   ├── forms.ts
-│   │   ├── helpers.ts
+│   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
 │   └── shared
-│       ├── helpers.ts
+│       ├── utils.ts
 │       ├── main.ts
 │       ├── models.ts
 │       └── parsers.ts
@@ -141,9 +141,13 @@ directory may be required; the `shared` directory is optional):
 ```
 
 > [!NOTE]
-> The `forms.ts`, `helpers.ts`, `models.ts`, `network.ts`, and `parsers.ts` files
+> The `forms.ts`, `utils.ts`, `models.ts`, `network.ts`, and `parsers.ts` files
 can be turned into directories when organizing them into multiple sub-files improves
-clarity or maintainability.
+clarity or maintainability (like with multiple classes or large functions).
+
+> [!NOTE]
+> The contents of `utils.ts` can be moved into a global `src/utils` directory when
+they need to be shared across extensions.
 
 - **Branding:**
 
