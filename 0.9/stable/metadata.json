@@ -29,10 +29,10 @@
       }
     },
     "MangaFire": {
-      "build_time": "2025-10-03T22:19:31.756Z",
+      "build_time": "2025-10-14T13:09:12.578Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "MangaFox": {
@@ -64,10 +64,10 @@
       }
     },
     "Mgeko": {
-      "build_time": "2025-10-06T12:19:45.414Z",
+      "build_time": "2025-10-14T13:09:12.578Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "ScyllaComics": {

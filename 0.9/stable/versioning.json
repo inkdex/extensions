@@ -1,8 +1,8 @@
 {
-  "buildTime": "2025-10-06T18:27:06.821Z",
+  "buildTime": "2025-10-14T13:09:33.298Z",
   "builtWith": {
-    "toolchain": "1.0.0-alpha.53",
-    "types": "1.0.0-alpha.53"
+    "toolchain": "1.0.0-alpha.57",
+    "types": "1.0.0-alpha.57"
   },
   "repository": {
     "name": "Inkdex Extensions (0.9)",
@@ -618,7 +618,7 @@
       "id": "MangaFire",
       "name": "MangaFire",
       "description": "Extension that pulls content from mangafire.to.",
-      "version": "1.0.0-alpha.6",
+      "version": "1.0.0-alpha.7",
       "icon": "icon.png",
       "language": "multi",
       "contentRating": "SAFE",
@@ -993,7 +993,7 @@
       "id": "Mgeko",
       "name": "Mgeko",
       "description": "Extension that pulls content from mgeko.cc.",
-      "version": "1.0.0-alpha.11",
+      "version": "1.0.0-alpha.12",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
