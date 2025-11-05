@@ -85,10 +85,10 @@
       }
     },
     "WeebCentral": {
-      "build_time": "2025-07-20T08:57:55.899Z",
+      "build_time": "2025-11-05T21:22:29.812Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "Zzizz": {
