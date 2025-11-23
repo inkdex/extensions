@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-11-05T21:22:53.602Z",
+  "buildTime": "2025-11-23T19:46:46.435Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -993,7 +993,7 @@
       "id": "Mgeko",
       "name": "Mgeko",
       "description": "Extension that pulls content from mgeko.cc.",
-      "version": "1.0.0-alpha.12",
+      "version": "1.0.0-alpha.13",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
