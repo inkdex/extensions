@@ -348,38 +348,38 @@
   },
   "mangabox-extensions": {
     "MangaBatCOM": {
-      "build_time": "2025-05-20T01:18:38.202Z",
+      "build_time": "2025-12-13T11:41:10.445Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "MangaKakalotGG": {
-      "build_time": "2025-05-20T01:18:38.202Z",
+      "build_time": "2025-12-13T11:41:10.445Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "MangaNatoGG": {
-      "build_time": "2025-05-20T01:18:38.202Z",
+      "build_time": "2025-12-13T11:41:10.445Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "NatoMangaCOM": {
-      "build_time": "2025-05-20T01:18:38.202Z",
+      "build_time": "2025-12-13T11:41:10.445Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "NeloMangaNET": {
-      "build_time": "2025-05-20T01:18:38.202Z",
+      "build_time": "2025-12-13T11:41:10.445Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     }
   },
