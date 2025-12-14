@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-12-13T11:41:31.204Z",
+  "buildTime": "2025-12-14T21:22:27.243Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -1178,6 +1178,24 @@
           "name": "Netsky",
           "website": null,
           "github": "https://github.com/TheNetsky"
+        }
+      ]
+    },
+    {
+      "id": "Roliascan",
+      "name": "Roliascan",
+      "description": "Extension that pulls content from roliascan.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 85,
+      "developers": [
+        {
+          "name": "Saw_6",
+          "website": null,
+          "github": null
         }
       ]
     },
