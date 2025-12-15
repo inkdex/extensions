@@ -517,14 +517,14 @@
   },
   "tracker-extensions": {
     "AniList": {
-      "build_time": "2025-12-14T23:47:51.461Z",
+      "build_time": "2025-12-15T13:13:43.194Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "MangaUpdates": {
-      "build_time": "2025-12-14T23:47:51.461Z",
+      "build_time": "2025-12-15T13:13:43.194Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
