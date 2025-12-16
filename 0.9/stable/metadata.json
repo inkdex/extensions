@@ -23,6 +23,13 @@
         "types": "1.0.0-alpha.53"
       }
     },
+    "ComixTo": {
+      "build_time": "2025-12-16T18:55:33.714Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
+      }
+    },
     "MangaDemon": {
       "build_time": "2025-09-24T11:59:34.190Z",
       "built_with": {
