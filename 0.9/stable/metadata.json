@@ -86,13 +86,6 @@
         "types": "1.0.0-alpha.57"
       }
     },
-    "ScyllaComics": {
-      "build_time": "2025-10-06T18:26:41.227Z",
-      "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
-      }
-    },
     "Webtoon": {
       "build_time": "2025-08-30T21:08:59.514Z",
       "built_with": {

@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-04T18:14:44.558Z",
+  "buildTime": "2026-01-04T18:15:30.227Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -1279,29 +1279,6 @@
           "name": "Netsky",
           "website": null,
           "github": "https://github.com/TheNetsky"
-        }
-      ]
-    },
-    {
-      "id": "ScyllaComics",
-      "name": "Scylla Comics",
-      "description": "Extension that pulls content from scyllacomics.xyz.",
-      "version": "1.0.0-alpha.2",
-      "icon": "icon.png",
-      "language": "en",
-      "contentRating": "ADULT",
-      "badges": [],
-      "capabilities": [
-        16,
-        4,
-        1,
-        64
-      ],
-      "developers": [
-        {
-          "name": "Lucifers Circle",
-          "website": null,
-          "github": null
         }
       ]
     },
