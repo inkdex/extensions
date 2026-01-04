@@ -17,10 +17,10 @@
       }
     },
     "BatoTo": {
-      "build_time": "2025-10-06T12:19:45.414Z",
+      "build_time": "2026-01-04T18:14:25.748Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "ComixTo": {

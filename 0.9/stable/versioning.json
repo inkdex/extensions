@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-12-16T18:55:52.878Z",
+  "buildTime": "2026-01-04T18:14:44.558Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -138,7 +138,7 @@
       "id": "BatoTo",
       "name": "Bato.To",
       "description": "Extension that pulls content from bato.to.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
@@ -147,7 +147,8 @@
         32,
         4,
         64,
-        1
+        1,
+        16
       ],
       "developers": [
         {
