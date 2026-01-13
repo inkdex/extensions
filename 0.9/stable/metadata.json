@@ -208,10 +208,10 @@
       }
     },
     "MadaraDex": {
-      "build_time": "2025-05-20T01:04:35.360Z",
+      "build_time": "2026-01-13T16:36:47.555Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "Manga3asq": {
