@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-14T03:19:13.574Z",
+  "buildTime": "2026-01-14T03:20:06.037Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -1446,17 +1446,12 @@
       "id": "WeebCentral",
       "name": "Weeb Central",
       "description": "Extension that pulls content from weebcentral.com.",
-      "version": "1.0.0-alpha.8",
+      "version": "1.0.0-alpha.9",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
       "badges": [],
-      "capabilities": [
-        1,
-        4,
-        64,
-        32
-      ],
+      "capabilities": 117,
       "developers": [
         {
           "name": "GabrielCWT",
