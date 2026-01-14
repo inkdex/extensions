@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-13T16:37:13.418Z",
+  "buildTime": "2026-01-14T03:19:13.574Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -13,17 +13,17 @@
       "id": "AllPornComic",
       "name": "AllPornComic",
       "description": "Extension that pulls content from allporncomic.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "ADULT",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -49,23 +49,17 @@
       "id": "ArthurScan",
       "name": "ArthurScan",
       "description": "Extension that pulls content from arthurscan.xyz.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇵🇹",
+      "language": "pt",
       "contentRating": "MATURE",
-      "badges": [
-        {
-          "label": "Portuguese",
-          "textColor": "#ffffff",
-          "backgroundColor": "#808080"
-        }
-      ],
+      "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -114,23 +108,17 @@
       "id": "AzoraMoon",
       "name": "AzoraMoon",
       "description": "Extension that pulls content from azoramoon.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇦🇪",
+      "language": "ar",
       "contentRating": "SAFE",
-      "badges": [
-        {
-          "label": "Arabic",
-          "textColor": "#ffffff",
-          "backgroundColor": "#808080"
-        }
-      ],
+      "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -162,17 +150,17 @@
       "id": "CoffeeManga",
       "name": "CoffeeManga",
       "description": "Extension that pulls content from coffeemanga.io.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -216,17 +204,17 @@
       "id": "DarkScans",
       "name": "DarkScans",
       "description": "Extension that pulls content from darkscans.net.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -234,17 +222,17 @@
       "id": "DragonTea",
       "name": "DragonTea",
       "description": "Extension that pulls content from dragontea.ink.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -288,17 +276,17 @@
       "id": "GourmetScans",
       "name": "GourmetScans",
       "description": "Extension that pulls content from gourmetsupremacy.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -306,17 +294,17 @@
       "id": "HariManga",
       "name": "HariManga",
       "description": "Extension that pulls content from https://harimanga.me.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -342,17 +330,17 @@
       "id": "HiperDex",
       "name": "HiperDex",
       "description": "Extension that pulls content from hiperdex.com.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "ADULT",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -378,17 +366,17 @@
       "id": "KunManga",
       "name": "KunManga",
       "description": "Extension that pulls content from kunmanga.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -396,17 +384,17 @@
       "id": "LHTranslation",
       "name": "LHTranslation",
       "description": "Extension that pulls content from lhtranslation.net.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -414,23 +402,17 @@
       "id": "LekManga",
       "name": "LekManga",
       "description": "Extension that pulls content from lekmanga.net.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇦🇪",
+      "language": "ar",
       "contentRating": "SAFE",
-      "badges": [
-        {
-          "label": "Arabic",
-          "textColor": "#ffffff",
-          "backgroundColor": "#808080"
-        }
-      ],
+      "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -456,17 +438,17 @@
       "id": "LilyManga",
       "name": "LilyManga",
       "description": "Extension that pulls content from lilymanga.net.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -498,17 +480,17 @@
       "id": "MadaraDex",
       "name": "MadaraDex",
       "description": "Extension that pulls content from madaradex.org.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "ADULT",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -516,23 +498,17 @@
       "id": "Manga3asq",
       "name": "Manga3asq",
       "description": "Extension that pulls content from 3asq.org.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇦🇪",
+      "language": "ar",
       "contentRating": "SAFE",
-      "badges": [
-        {
-          "label": "Arabic",
-          "textColor": "#ffffff",
-          "backgroundColor": "#808080"
-        }
-      ],
+      "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -563,17 +539,17 @@
       "id": "MangaClash",
       "name": "MangaClash",
       "description": "Extension that pulls content from toonclash.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -612,6 +588,24 @@
         32,
         2
       ],
+      "developers": [
+        {
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "MangaDistrict",
+      "name": "MangaDistrict",
+      "description": "Extension that pulls content from mangadistrict.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "ADULT",
+      "badges": [],
+      "capabilities": 117,
       "developers": [
         {
           "name": "Inkdex",
@@ -742,23 +736,17 @@
       "id": "MangaOrigines",
       "name": "MangaOrigines",
       "description": "Extension that pulls content from mangas-origines.fr.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇫🇷",
+      "language": "fr",
       "contentRating": "MATURE",
-      "badges": [
-        {
-          "label": "French",
-          "textColor": "#ffffff",
-          "backgroundColor": "#808080"
-        }
-      ],
+      "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -789,17 +777,17 @@
       "id": "MangaReadOrg",
       "name": "MangaReadOrg",
       "description": "Extension that pulls content from mangaread.org.",
-      "version": "1.0.0-alpha.6",
+      "version": "1.0.0-alpha.7",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -807,23 +795,17 @@
       "id": "MangaScantrad",
       "name": "MangaScantrad",
       "description": "Extension that pulls content from manga-scantrad.io.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇫🇷",
+      "language": "fr",
       "contentRating": "MATURE",
-      "badges": [
-        {
-          "label": "French",
-          "textColor": "#ffffff",
-          "backgroundColor": "#808080"
-        }
-      ],
+      "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -907,17 +889,17 @@
       "id": "MangaZin",
       "name": "MangaZin",
       "description": "Extension that pulls content from mangazin.org.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -947,17 +929,17 @@
       "id": "ManhuaFast",
       "name": "ManhuaFast",
       "description": "Extension that pulls content from manhuafast.com.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -965,17 +947,17 @@
       "id": "ManhuaPlus",
       "name": "ManhuaPlus",
       "description": "Extension that pulls content from manhuaplus.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -983,17 +965,17 @@
       "id": "Manhuaus",
       "name": "Manhuaus",
       "description": "Extension that pulls content from manhuaus.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1001,23 +983,17 @@
       "id": "ManhwaRaw",
       "name": "ManhwaRaw",
       "description": "Extension that pulls content from manhwa-raw.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇰🇷",
+      "language": "ko",
       "contentRating": "ADULT",
-      "badges": [
-        {
-          "label": "Korean",
-          "textColor": "#ffffff",
-          "backgroundColor": "#808080"
-        }
-      ],
+      "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1025,17 +1001,17 @@
       "id": "ManhwaTop",
       "name": "ManhwaTop",
       "description": "Extension that pulls content from manhwatop.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1172,17 +1148,17 @@
       "id": "NovelMic",
       "name": "NovelMic",
       "description": "Extension that pulls content from novelmic.com.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1190,17 +1166,17 @@
       "id": "PlatinumScans",
       "name": "PlatinumScans",
       "description": "Extension that pulls content from platinumscans.com.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1249,17 +1225,17 @@
       "id": "ResetScans",
       "name": "ResetScans",
       "description": "Extension that pulls content from reset-scans.org.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.6",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1285,23 +1261,17 @@
       "id": "SamuraiScan",
       "name": "SamuraiScan",
       "description": "Extension that pulls content from samurai.wordoco.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇪🇸",
+      "language": "es",
       "contentRating": "MATURE",
-      "badges": [
-        {
-          "label": "Spanish",
-          "textColor": "#ffffff",
-          "backgroundColor": "#808080"
-        }
-      ],
+      "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1309,17 +1279,17 @@
       "id": "SetsuScans",
       "name": "SetsuScans",
       "description": "Extension that pulls content from setsuscans.com.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1345,17 +1315,17 @@
       "id": "TheBlank",
       "name": "TheBlank",
       "description": "Extension that pulls content from theblank.net.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "ADULT",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1381,17 +1351,17 @@
       "id": "ToonGod",
       "name": "ToonGod",
       "description": "Extension that pulls content from toongod.com.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "ADULT",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1399,17 +1369,17 @@
       "id": "Toonily",
       "name": "Toonily",
       "description": "Extension that pulls content from toonily.com.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "ADULT",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1417,17 +1387,17 @@
       "id": "UToon",
       "name": "UToon",
       "description": "Extension that pulls content from utoon.net.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "MATURE",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1458,17 +1428,17 @@
       "id": "WebtoonXYZ",
       "name": "WebtoonXYZ",
       "description": "Extension that pulls content from webtoon.xyz.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "ADULT",
       "badges": [],
       "capabilities": 117,
       "developers": [
         {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
@@ -1492,6 +1462,24 @@
           "name": "GabrielCWT",
           "website": null,
           "github": "https://github.com/GabrielCWT"
+        }
+      ]
+    },
+    {
+      "id": "YaoiScan",
+      "name": "YaoiScan",
+      "description": "Extension that pulls content from yaoiscan.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "🇬🇧",
+      "contentRating": "ADULT",
+      "badges": [],
+      "capabilities": 117,
+      "developers": [
+        {
+          "name": "Inkdex",
+          "website": "https://inkdex.github.io",
+          "github": "https://github.com/inkdex"
         }
       ]
     },
