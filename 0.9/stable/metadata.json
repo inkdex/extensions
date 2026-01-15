@@ -491,13 +491,6 @@
         "types": "1.0.0-alpha.57"
       }
     },
-    "RawKuma": {
-      "build_time": "2025-12-15T00:28:30.489Z",
-      "built_with": {
-        "toolchain": "1.0.0-alpha.57",
-        "types": "1.0.0-alpha.57"
-      }
-    },
     "SushiScans": {
       "build_time": "2025-12-15T00:28:30.489Z",
       "built_with": {
