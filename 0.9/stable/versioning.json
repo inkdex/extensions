@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-15T07:49:13.857Z",
+  "buildTime": "2026-01-15T15:33:28.858Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -831,17 +831,11 @@
       "id": "MangaWorld",
       "name": "MangaWorld",
       "description": "Extension that pulls content from www.mangaworld.mx.",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.2",
       "icon": "icon.png",
       "language": "it",
       "contentRating": "SAFE",
-      "badges": [
-        {
-          "label": "Italian 🇮🇹",
-          "textColor": "#ffffff",
-          "backgroundColor": "#28eac2"
-        }
-      ],
+      "badges": [],
       "capabilities": [
         1,
         4,
@@ -860,17 +854,11 @@
       "id": "MangaWorldAdult",
       "name": "MangaWorldAdult",
       "description": "Extension that pulls content from www.mangaworldadult.net.",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.2",
       "icon": "icon.png",
       "language": "it",
       "contentRating": "ADULT",
-      "badges": [
-        {
-          "label": "Italian 🇮🇹",
-          "textColor": "#ffffff",
-          "backgroundColor": "#28eac2"
-        }
-      ],
+      "badges": [],
       "capabilities": [
         1,
         4,
