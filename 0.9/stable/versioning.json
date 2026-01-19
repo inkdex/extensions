@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-15T15:33:28.858Z",
+  "buildTime": "2026-01-19T20:47:58.313Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -710,6 +710,24 @@
       ]
     },
     {
+      "id": "MangaKoma",
+      "name": "MangaKoma",
+      "description": "Extension that pulls content from mangakoma.net.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "ja",
+      "contentRating": "MATURE",
+      "badges": [],
+      "capabilities": 69,
+      "developers": [
+        {
+          "name": "deskpacito",
+          "website": null,
+          "github": "https://github.com/deskpacito"
+        }
+      ]
+    },
+    {
       "id": "MangaNatoGG",
       "name": "MangaNatoGG",
       "description": "Extension that pulls content from manganato.gg.",
@@ -1188,6 +1206,24 @@
           "name": "Lucifers Circle",
           "website": null,
           "github": null
+        }
+      ]
+    },
+    {
+      "id": "Raw1001",
+      "name": "Raw1001",
+      "description": "Extension that pulls content from raw1001.net.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "ja",
+      "contentRating": "MATURE",
+      "badges": [],
+      "capabilities": 69,
+      "developers": [
+        {
+          "name": "deskpacito",
+          "website": null,
+          "github": "https://github.com/deskpacito"
         }
       ]
     },
