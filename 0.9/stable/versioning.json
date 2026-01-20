@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-19T20:47:58.313Z",
+  "buildTime": "2026-01-20T00:58:42.521Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -67,12 +67,17 @@
       "id": "AstraScans",
       "name": "Astra Scans",
       "description": "Extension that pulls content from astrascans.org.",
-      "version": "1.0.0-alpha.6",
+      "version": "1.0.0-alpha.7",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -186,12 +191,17 @@
       "id": "CypherScans",
       "name": "Cypher Scans",
       "description": "Extension that pulls content from cypheroscans.xyz.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -240,12 +250,17 @@
       "id": "DrakeScans",
       "name": "Drake Scans",
       "description": "Extension that pulls content from drakecomic.org.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -258,12 +273,17 @@
       "id": "ElarcToons",
       "name": "Elarc Toons",
       "description": "Extension that pulls content from elarctoons.biz.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -312,12 +332,17 @@
       "id": "Hentai20",
       "name": "Hentai20",
       "description": "Extension that pulls content from hentai20.io.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.jpg",
       "language": "en",
       "contentRating": "ADULT",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -348,12 +373,17 @@
       "id": "IgnisComic",
       "name": "Ignis Comic",
       "description": "Extension that pulls content from manhuaga.com.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -420,12 +450,17 @@
       "id": "LelManga",
       "name": "LelManga",
       "description": "Extension that pulls content from lelmanga.com.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "fr",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -456,18 +491,17 @@
       "id": "LunarScans",
       "name": "Lunar Scans",
       "description": "Extension that pulls content from lunarscan.org.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.6",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
-      "badges": [
-        {
-          "label": "18+",
-          "textColor": "#000000",
-          "backgroundColor": "#FF0000"
-        }
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
       ],
-      "capabilities": 117,
       "developers": [
         {
           "name": "nyzzik",
@@ -1025,18 +1059,17 @@
       "id": "ManhwaX",
       "name": "ManhwaX",
       "description": "Extension that pulls content from manhwax.top.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.6",
       "icon": "icon.jpg",
       "language": "en",
       "contentRating": "ADULT",
-      "badges": [
-        {
-          "label": "18+",
-          "textColor": "#000000",
-          "backgroundColor": "#FF0000"
-        }
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
       ],
-      "capabilities": 117,
       "developers": [
         {
           "name": "nyzzik",
@@ -1072,12 +1105,17 @@
       "id": "MythicScans",
       "name": "Mythic Scans",
       "description": "Extension that pulls content from mythicscans.net.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 101,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -1136,12 +1174,17 @@
       "id": "NightScans",
       "name": "Night Scans",
       "description": "Extension that pulls content from nightsup.net.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.6",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 101,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -1303,12 +1346,17 @@
       "id": "SushiScans",
       "name": "SushiScans",
       "description": "Extension that pulls content from sushiscan.net.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -1339,12 +1387,17 @@
       "id": "Thunderscans",
       "name": "Thunderscans",
       "description": "Extension that pulls content from en-thunderscans.com.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.8",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
@@ -1506,12 +1559,17 @@
       "id": "xCalibrScans",
       "name": "xCalibrScans",
       "description": "Extension that pulls content from xcalibrscans.com.",
-      "version": "1.0.0-alpha.2",
+      "version": "1.0.0-alpha.3",
       "icon": "icon.png",
       "language": "en",
-      "contentRating": "SAFE",
+      "contentRating": "EVERYONE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
       "developers": [
         {
           "name": "nyzzik",
