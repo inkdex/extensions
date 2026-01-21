@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-21T05:42:43.415Z",
+  "buildTime": "2026-01-21T16:51:40.647Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -113,7 +113,7 @@
       "id": "Atsumaru",
       "name": "Atsumaru",
       "description": "Extension that pulls content from atsu.moe.",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.2",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
