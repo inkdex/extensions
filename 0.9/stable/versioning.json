@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-20T12:49:30.982Z",
+  "buildTime": "2026-01-21T05:42:03.808Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -106,6 +106,29 @@
           "name": "nyzzik",
           "website": null,
           "github": "https://github.com/nyzzik"
+        }
+      ]
+    },
+    {
+      "id": "Atsumaru",
+      "name": "Atsumaru",
+      "description": "Extension that pulls content from atsu.moe.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        16,
+        4,
+        1,
+        64
+      ],
+      "developers": [
+        {
+          "name": "Lucifers Circle",
+          "website": null,
+          "github": null
         }
       ]
     },
