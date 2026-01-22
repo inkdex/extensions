@@ -87,7 +87,7 @@
       }
     },
     "Mgeko": {
-      "build_time": "2026-01-05T11:15:44.623Z",
+      "build_time": "2026-01-22T15:25:06.955Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
@@ -108,7 +108,7 @@
       }
     },
     "WeebCentral": {
-      "build_time": "2026-01-14T10:26:23.327Z",
+      "build_time": "2026-01-22T15:25:06.955Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
