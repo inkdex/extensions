@@ -23,13 +23,6 @@
         "types": "1.0.0-alpha.57"
       }
     },
-    "BatoTo": {
-      "build_time": "2026-01-04T18:14:25.748Z",
-      "built_with": {
-        "toolchain": "1.0.0-alpha.57",
-        "types": "1.0.0-alpha.57"
-      }
-    },
     "ComixTo": {
       "build_time": "2026-01-11T15:50:05.582Z",
       "built_with": {

@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-01-22T15:25:30.867Z",
+  "buildTime": "2026-01-23T07:17:45.965Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -142,30 +142,6 @@
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
-      "developers": [
-        {
-          "name": "Inkdex",
-          "website": "https://inkdex.github.io",
-          "github": "https://github.com/inkdex"
-        }
-      ]
-    },
-    {
-      "id": "BatoTo",
-      "name": "Bato.To",
-      "description": "Extension that pulls content from bato.to.",
-      "version": "1.0.0-alpha.5",
-      "icon": "icon.png",
-      "language": "en",
-      "contentRating": "ADULT",
-      "badges": [],
-      "capabilities": [
-        32,
-        4,
-        64,
-        1,
-        16
-      ],
       "developers": [
         {
           "name": "Inkdex",
