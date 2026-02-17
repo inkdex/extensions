@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-02-12T19:12:18.815Z",
+  "buildTime": "2026-02-17T00:35:27.780Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -1360,6 +1360,30 @@
           "name": "GabrielCWT",
           "website": null,
           "github": "https://github.com/GabrielCWT"
+        }
+      ]
+    },
+    {
+      "id": "WeebDex",
+      "name": "WeebDex",
+      "description": "Extension that pulls content from weebdex.org.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "MATURE",
+      "badges": [],
+      "capabilities": [
+        16,
+        4,
+        1,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Lucifers Circle",
+          "website": null,
+          "github": null
         }
       ]
     },
