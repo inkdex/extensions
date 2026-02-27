@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-02-27T07:38:57.740Z",
+  "buildTime": "2026-02-27T19:26:48.600Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -149,12 +149,12 @@
       "id": "ComixTo",
       "name": "ComixTo",
       "description": "Extension that pulls content from Comix.to.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
       "badges": [],
-      "capabilities": 101,
+      "capabilities": 117,
       "developers": [
         {
           "name": "Catta1997",
