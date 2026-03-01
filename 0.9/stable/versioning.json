@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-03-01T17:52:55.254Z",
+  "buildTime": "2026-03-01T18:18:38.324Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -437,18 +437,13 @@
       "id": "MangaBatCOM",
       "name": "MangaBatCOM",
       "description": "Extension that pulls content from mangabat.com.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
-        {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
-        },
         {
           "name": "Saw_6",
           "website": null,
@@ -590,18 +585,13 @@
       "id": "MangaKakalotGG",
       "name": "MangaKakalotGG",
       "description": "Extension that pulls content from mangakakalot.gg.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
-        {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
-        },
         {
           "name": "Saw_6",
           "website": null,
@@ -654,18 +644,13 @@
       "id": "MangaNatoGG",
       "name": "MangaNatoGG",
       "description": "Extension that pulls content from manganato.gg.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
-      "capabilities": 117,
+      "capabilities": 85,
       "developers": [
-        {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
-        },
         {
           "name": "Saw_6",
           "website": null,
@@ -995,18 +980,13 @@
       "id": "NatoMangaCOM",
       "name": "NatoMangaCOM",
       "description": "Extension that pulls content from natomanga.com.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
-        {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
-        },
         {
           "name": "Saw_6",
           "website": null,
@@ -1018,18 +998,13 @@
       "id": "NeloMangaNET",
       "name": "NeloMangaNET",
       "description": "Extension that pulls content from nelomanga.net.",
-      "version": "1.0.0-alpha.4",
+      "version": "1.0.0-alpha.5",
       "icon": "icon.png",
-      "language": "🇬🇧",
+      "language": "en",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": 117,
       "developers": [
-        {
-          "name": "Netsky",
-          "website": null,
-          "github": "https://github.com/TheNetsky"
-        },
         {
           "name": "Saw_6",
           "website": null,
