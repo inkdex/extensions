@@ -431,42 +431,42 @@
   },
   "mangastream-extensions": {
     "DrakeScans": {
-      "build_time": "2026-01-27T12:33:58.156Z",
+      "build_time": "2026-03-01T17:52:33.590Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "Hentai20": {
-      "build_time": "2026-01-23T13:06:23.722Z",
+      "build_time": "2026-03-01T17:52:33.590Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "LelManga": {
-      "build_time": "2026-01-23T13:06:23.722Z",
+      "build_time": "2026-03-01T17:52:33.590Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "ManhwaX": {
-      "build_time": "2026-01-23T13:06:23.722Z",
+      "build_time": "2026-03-01T17:52:33.590Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "SushiScans": {
-      "build_time": "2026-01-27T12:33:58.156Z",
+      "build_time": "2026-03-01T17:52:33.590Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "Thunderscans": {
-      "build_time": "2026-01-23T13:06:23.722Z",
+      "build_time": "2026-03-01T17:52:33.590Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
