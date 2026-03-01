@@ -10,105 +10,105 @@
   },
   "general-extensions": {
     "AsuraScans": {
-      "build_time": "2025-10-04T15:31:03.096Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "Atsumaru": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "ComixTo": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "MangaDemon": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "MangaDex": {
-      "build_time": "2026-02-20T01:32:17.800Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "MangaFire": {
-      "build_time": "2025-10-14T13:09:12.578Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "MangaFox": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "MangaKatana": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "MangaPlus": {
-      "build_time": "2025-05-20T01:39:46.198Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "Mangapill": {
-      "build_time": "2025-07-18T14:16:10.423Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "Mgeko": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "QiScans": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "Webtoon": {
-      "build_time": "2025-08-30T21:08:59.514Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "WeebCentral": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "WeebDex": {
-      "build_time": "2026-03-01T16:09:10.178Z",
+      "build_time": "2026-03-01T16:59:18.829Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
