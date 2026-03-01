@@ -154,7 +154,7 @@
       }
     },
     "CoffeeManga": {
-      "build_time": "2026-02-27T07:38:38.752Z",
+      "build_time": "2026-03-01T18:34:46.262Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
@@ -385,7 +385,7 @@
       }
     },
     "YaoiScan": {
-      "build_time": "2026-02-27T07:38:38.752Z",
+      "build_time": "2026-03-01T18:34:46.262Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
