@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-02-27T19:26:48.600Z",
+  "buildTime": "2026-03-01T16:09:28.805Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -90,7 +90,7 @@
       "id": "Atsumaru",
       "name": "Atsumaru",
       "description": "Extension that pulls content from atsu.moe.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.8",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -149,7 +149,7 @@
       "id": "ComixTo",
       "name": "ComixTo",
       "description": "Extension that pulls content from Comix.to.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.6",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -478,7 +478,7 @@
       "id": "MangaDemon",
       "name": "MangaDemon",
       "description": "Extension that pulls content from demonicscans.org.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
       "language": "🇺🇸",
       "contentRating": "SAFE",
@@ -567,7 +567,7 @@
       "id": "MangaFox",
       "name": "MangaFox",
       "description": "Extension that pulls content from fanfox.net.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -575,7 +575,8 @@
       "capabilities": [
         4,
         64,
-        1
+        1,
+        16
       ],
       "developers": [
         {
@@ -612,7 +613,7 @@
       "id": "MangaKatana",
       "name": "MangaKatana",
       "description": "Extension that pulls content from mangakatana.com.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.6",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -620,7 +621,8 @@
       "capabilities": [
         4,
         64,
-        1
+        1,
+        16
       ],
       "developers": [
         {
@@ -970,7 +972,7 @@
       "id": "Mgeko",
       "name": "Mgeko",
       "description": "Extension that pulls content from mgeko.cc.",
-      "version": "1.0.0-alpha.16",
+      "version": "1.0.0-alpha.17",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -1075,7 +1077,7 @@
       "id": "QiScans",
       "name": "QiScans",
       "description": "Extension that pulls content from qiscans.org.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -1349,7 +1351,7 @@
       "id": "WeebCentral",
       "name": "Weeb Central",
       "description": "Extension that pulls content from weebcentral.com.",
-      "version": "1.0.0-alpha.11",
+      "version": "1.0.0-alpha.12",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -1367,7 +1369,7 @@
       "id": "WeebDex",
       "name": "WeebDex",
       "description": "Extension that pulls content from weebdex.org.",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.2",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",

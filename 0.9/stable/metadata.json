@@ -17,21 +17,21 @@
       }
     },
     "Atsumaru": {
-      "build_time": "2026-02-27T07:36:36.901Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "ComixTo": {
-      "build_time": "2026-02-27T19:26:28.192Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "MangaDemon": {
-      "build_time": "2026-02-07T20:27:56.897Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
@@ -52,17 +52,17 @@
       }
     },
     "MangaFox": {
-      "build_time": "2025-05-26T01:30:10.413Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.53",
-        "types": "1.0.0-alpha.53"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "MangaKatana": {
-      "build_time": "2025-05-20T01:39:46.198Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.52",
-        "types": "1.0.0-alpha.52"
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
       }
     },
     "MangaPlus": {
@@ -80,14 +80,14 @@
       }
     },
     "Mgeko": {
-      "build_time": "2026-02-07T20:27:56.897Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "QiScans": {
-      "build_time": "2026-01-21T16:52:16.210Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
@@ -101,14 +101,14 @@
       }
     },
     "WeebCentral": {
-      "build_time": "2026-01-22T15:25:06.955Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "WeebDex": {
-      "build_time": "2026-02-17T00:35:11.350Z",
+      "build_time": "2026-03-01T16:09:10.178Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
