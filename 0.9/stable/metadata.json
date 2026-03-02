@@ -17,7 +17,7 @@
       }
     },
     "Atsumaru": {
-      "build_time": "2026-03-01T23:22:51.958Z",
+      "build_time": "2026-03-02T17:01:39.541Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
@@ -31,7 +31,7 @@
       }
     },
     "MangaDemon": {
-      "build_time": "2026-03-01T23:22:51.958Z",
+      "build_time": "2026-03-02T17:01:39.541Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
@@ -87,7 +87,7 @@
       }
     },
     "QiScans": {
-      "build_time": "2026-03-01T23:22:51.958Z",
+      "build_time": "2026-03-02T17:01:39.541Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
@@ -101,14 +101,14 @@
       }
     },
     "WeebCentral": {
-      "build_time": "2026-03-01T23:22:51.958Z",
+      "build_time": "2026-03-02T17:01:39.541Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
       }
     },
     "WeebDex": {
-      "build_time": "2026-03-01T23:22:51.958Z",
+      "build_time": "2026-03-02T17:01:39.541Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.57",
         "types": "1.0.0-alpha.57"
