@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-03-02T17:02:09.372Z",
+  "buildTime": "2026-03-03T13:53:23.808Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -1068,6 +1068,30 @@
           "name": "Lucifers Circle",
           "website": null,
           "github": null
+        }
+      ]
+    },
+    {
+      "id": "RageScans",
+      "name": "Rage Scans",
+      "description": "Extension that pulls content from ragescans.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        64,
+        32,
+        16
+      ],
+      "developers": [
+        {
+          "name": "nyzzik",
+          "website": null,
+          "github": "https://github.com/nyzzik"
         }
       ]
     },

@@ -458,6 +458,13 @@
         "types": "1.0.0-alpha.57"
       }
     },
+    "RageScans": {
+      "build_time": "2026-03-03T13:53:03.998Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.57",
+        "types": "1.0.0-alpha.57"
+      }
+    },
     "SushiScans": {
       "build_time": "2026-03-01T17:52:33.590Z",
       "built_with": {
