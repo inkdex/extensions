@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-03-03T13:53:23.808Z",
+  "buildTime": "2026-03-03T17:40:35.349Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -1052,7 +1052,7 @@
       "id": "QiScans",
       "name": "QiScans",
       "description": "Extension that pulls content from qiscans.org.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.8",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
