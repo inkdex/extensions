@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-03-03T17:40:35.349Z",
+  "buildTime": "2026-03-07T23:12:46.189Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.57",
     "types": "1.0.0-alpha.57"
@@ -516,7 +516,7 @@
       "id": "MangaDistrict",
       "name": "MangaDistrict",
       "description": "Extension that pulls content from mangadistrict.com.",
-      "version": "1.0.0-alpha.5",
+      "version": "1.0.0-alpha.6",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
