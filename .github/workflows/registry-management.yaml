@@ -1,22 +1,25 @@
 name: Registry Management
 
 on:
-    repository_dispatch:
-        types:
-            - registry-management
+  repository_dispatch:
+    types:
+      - registry-management
+
+permissions:
+  contents: write
 
 concurrency:
-    group: ${{ github.workflow }}
-    cancel-in-progress: false
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
-    registry-management:
-        name: Registry Management
-        runs-on: ubuntu-latest
-        steps:
-            - name: Manage Registry
-              uses: inkdex/registry-manager@stable
-              with:
-                  github-token: ${{ secrets.REGISTRY_MANAGEMENT }}
-                  repository: ${{ github.event.client_payload.repository }}
-                  branch: ${{ github.event.client_payload.branch }}
+  registry-management:
+    name: Registry Management
+    runs-on: ubuntu-latest
+    steps:
+      - name: Manage Registry
+        uses: inkdex/registry-manager@stable
+        with:
+          github-token: ${{ github.token }}
+          repository: ${{ github.event.client_payload.repository }}
+          branch: ${{ github.event.client_payload.branch }}
