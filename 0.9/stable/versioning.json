@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-03-14T08:12:15.837Z",
+  "buildTime": "2026-03-20T17:50:12.432Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.64",
     "types": "1.0.0-alpha.64"
@@ -737,6 +737,29 @@
       ]
     },
     {
+      "id": "MangaTaro",
+      "name": "MangaTaro",
+      "description": "Extension that pulls content from mangataro.org.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        16,
+        4,
+        1,
+        64
+      ],
+      "developers": [
+        {
+          "name": "Lucifers Circle",
+          "website": null,
+          "github": null
+        }
+      ]
+    },
+    {
       "id": "MangaUpdates",
       "name": "MangaUpdates",
       "description": "Extension that integrates with mangaupdates.com for tracking and collection management.",
@@ -1046,6 +1069,30 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "QToon",
+      "name": "QToon",
+      "description": "Extension that pulls content from qtoon.com.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "multi",
+      "contentRating": "MATURE",
+      "badges": [],
+      "capabilities": [
+        16,
+        4,
+        1,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Lucifers Circle",
+          "website": null,
+          "github": null
         }
       ]
     },
