@@ -9,13 +9,6 @@
     }
   },
   "general-extensions": {
-    "AsuraScans": {
-      "build_time": "2026-03-12T19:06:01.380Z",
-      "built_with": {
-        "toolchain": "1.0.0-alpha.64",
-        "types": "1.0.0-alpha.64"
-      }
-    },
     "Atsumaru": {
       "build_time": "2026-03-14T08:11:48.705Z",
       "built_with": {
@@ -24,7 +17,7 @@
       }
     },
     "ComixTo": {
-      "build_time": "2026-03-12T19:06:01.380Z",
+      "build_time": "2026-03-21T17:03:09.452Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.64",
         "types": "1.0.0-alpha.64"
@@ -44,22 +37,15 @@
         "types": "1.0.0-alpha.64"
       }
     },
-    "MangaFire": {
-      "build_time": "2026-03-12T19:06:01.380Z",
-      "built_with": {
-        "toolchain": "1.0.0-alpha.64",
-        "types": "1.0.0-alpha.64"
-      }
-    },
     "MangaFox": {
-      "build_time": "2026-03-12T19:06:01.380Z",
+      "build_time": "2026-03-21T17:03:09.452Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.64",
         "types": "1.0.0-alpha.64"
       }
     },
     "MangaKatana": {
-      "build_time": "2026-03-12T19:06:01.380Z",
+      "build_time": "2026-03-21T17:03:09.452Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.64",
         "types": "1.0.0-alpha.64"
@@ -80,14 +66,14 @@
       }
     },
     "Mangapill": {
-      "build_time": "2026-03-12T19:06:01.380Z",
+      "build_time": "2026-03-21T17:03:09.452Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.64",
         "types": "1.0.0-alpha.64"
       }
     },
     "Mgeko": {
-      "build_time": "2026-03-12T19:06:01.380Z",
+      "build_time": "2026-03-21T17:03:09.452Z",
       "built_with": {
         "toolchain": "1.0.0-alpha.64",
         "types": "1.0.0-alpha.64"

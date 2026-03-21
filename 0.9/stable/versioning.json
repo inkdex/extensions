@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-03-20T17:50:12.432Z",
+  "buildTime": "2026-03-21T17:03:28.703Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.64",
     "types": "1.0.0-alpha.64"
@@ -60,29 +60,6 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
-        }
-      ]
-    },
-    {
-      "id": "AsuraScans",
-      "name": "Asura Scans",
-      "description": "Extension that pulls content from asuracomic.net.",
-      "version": "1.0.0-alpha.12",
-      "icon": "icon.png",
-      "language": "en",
-      "contentRating": "SAFE",
-      "badges": [],
-      "capabilities": [
-        1,
-        4,
-        32,
-        64
-      ],
-      "developers": [
-        {
-          "name": "nyzzik",
-          "website": null,
-          "github": "https://github.com/nyzzik"
         }
       ]
     },
@@ -150,7 +127,7 @@
       "id": "ComixTo",
       "name": "ComixTo",
       "description": "Extension that pulls content from Comix.to.",
-      "version": "1.0.0-alpha.11",
+      "version": "1.0.0-alpha.12",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -532,38 +509,10 @@
       ]
     },
     {
-      "id": "MangaFire",
-      "name": "MangaFire",
-      "description": "Extension that pulls content from mangafire.to.",
-      "version": "1.0.0-alpha.12",
-      "icon": "icon.png",
-      "language": "multi",
-      "contentRating": "SAFE",
-      "badges": [],
-      "capabilities": [
-        4,
-        64,
-        1,
-        32
-      ],
-      "developers": [
-        {
-          "name": "Karrot",
-          "website": null,
-          "github": null
-        },
-        {
-          "name": "nyzzik",
-          "website": null,
-          "github": null
-        }
-      ]
-    },
-    {
       "id": "MangaFox",
       "name": "MangaFox",
       "description": "Extension that pulls content from fanfox.net.",
-      "version": "1.0.0-alpha.9",
+      "version": "1.0.0-alpha.10",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -604,7 +553,7 @@
       "id": "MangaKatana",
       "name": "MangaKatana",
       "description": "Extension that pulls content from mangakatana.com.",
-      "version": "1.0.0-alpha.11",
+      "version": "1.0.0-alpha.12",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -845,7 +794,7 @@
       "id": "Mangapill",
       "name": "Mangapill",
       "description": "Extension that pulls content from mangapill.com.",
-      "version": "1.0.0-alpha.7",
+      "version": "1.0.0-alpha.8",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -981,7 +930,7 @@
       "id": "Mgeko",
       "name": "Mgeko",
       "description": "Extension that pulls content from mgeko.cc.",
-      "version": "1.0.0-alpha.22",
+      "version": "1.0.0-alpha.23",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
