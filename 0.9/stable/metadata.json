@@ -106,13 +106,6 @@
         "toolchain": "1.0.0-alpha.64",
         "types": "1.0.0-alpha.64"
       }
-    },
-    "WeebDex": {
-      "build_time": "2026-03-12T19:06:01.380Z",
-      "built_with": {
-        "toolchain": "1.0.0-alpha.64",
-        "types": "1.0.0-alpha.64"
-      }
     }
   },
   "liliana-extensions": {
