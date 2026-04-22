@@ -19,7 +19,7 @@ jobs:
         uses: actions/create-github-app-token@v3
         with:
           client-id: ${{ vars.REGISTRY_MANAGEMENT_APP_ID }}
-          client-key: ${{ secrets.REGISTRY_MANAGEMENT_APP_SECRET }}
+          private-key: ${{ secrets.REGISTRY_MANAGEMENT_APP_SECRET }}
 
       - name: Manage Registry
         uses: inkdex/registry-manager@stable
