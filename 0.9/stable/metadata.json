@@ -106,6 +106,22 @@
       }
     }
   },
+  "liliana-extensions": {
+    "MangaKoma": {
+      "build_time": "2026-04-23T17:30:42.018Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.74",
+        "types": "1.0.0-alpha.74"
+      }
+    },
+    "Raw1001": {
+      "build_time": "2026-04-23T17:30:42.018Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.74",
+        "types": "1.0.0-alpha.74"
+      }
+    }
+  },
   "madara-extensions": {
     "AllPornComic": {
       "build_time": "2026-04-23T06:11:42.148Z",
