@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-04-23T17:41:46.998Z",
+  "buildTime": "2026-04-23T17:45:24.960Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.74",
     "types": "1.0.0-alpha.74"
@@ -781,6 +781,52 @@
           "name": "IntermittentlyRupert",
           "website": null,
           "github": "https://github.com/IntermittentlyRupert"
+        }
+      ]
+    },
+    {
+      "id": "MangaWorld",
+      "name": "MangaWorld",
+      "description": "Extension that pulls content from www.mangaworld.mx.",
+      "version": "1.0.0-alpha.2",
+      "icon": "icon.png",
+      "language": "it",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Catta1997",
+          "website": "https://github.com/Catta1997",
+          "github": null
+        }
+      ]
+    },
+    {
+      "id": "MangaWorldAdult",
+      "name": "MangaWorldAdult",
+      "description": "Extension that pulls content from www.mangaworldadult.net.",
+      "version": "1.0.0-alpha.2",
+      "icon": "icon.png",
+      "language": "it",
+      "contentRating": "ADULT",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Catta1997",
+          "website": "https://github.com/Catta1997",
+          "github": null
         }
       ]
     },
