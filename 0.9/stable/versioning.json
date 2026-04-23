@@ -1,14 +1,32 @@
 {
-  "buildTime": "2026-04-23T12:48:01.613Z",
+  "buildTime": "2026-04-23T12:54:34.543Z",
   "builtWith": {
-    "toolchain": "1.0.0-alpha.72",
-    "types": "1.0.0-alpha.72"
+    "toolchain": "1.0.0-alpha.74",
+    "types": "1.0.0-alpha.74"
   },
   "repository": {
     "name": "Inkdex Extensions (0.9)",
     "description": "All extensions from the Inkdex community in a single repository."
   },
   "sources": [
+    {
+      "id": "AniList",
+      "name": "AniList",
+      "description": "Extension that integrates with anilist.co for tracking and collection management.",
+      "version": "1.0.0-alpha.12",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 102,
+      "developers": [
+        {
+          "name": "Celarye",
+          "website": "https://celarye.dev",
+          "github": "https://github.com/Celarye"
+        }
+      ]
+    },
     {
       "id": "Atsumaru",
       "name": "Atsumaru",
@@ -201,6 +219,24 @@
           "name": "Lucifers Circle",
           "website": null,
           "github": null
+        }
+      ]
+    },
+    {
+      "id": "MangaUpdates",
+      "name": "MangaUpdates",
+      "description": "Extension that integrates with mangaupdates.com for tracking and collection management.",
+      "version": "1.0.0-alpha.5",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": 102,
+      "developers": [
+        {
+          "name": "IntermittentlyRupert",
+          "website": null,
+          "github": "https://github.com/IntermittentlyRupert"
         }
       ]
     },
