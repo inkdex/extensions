@@ -8,17 +8,17 @@
       }
     },
     "Comix": {
-      "build_time": "2026-04-22T20:40:40.235Z",
+      "build_time": "2026-04-24T12:10:41.268Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.72",
-        "types": "1.0.0-alpha.72"
+        "toolchain": "1.0.0-alpha.74",
+        "types": "1.0.0-alpha.74"
       }
     },
     "ComixTo": {
-      "build_time": "2026-04-22T20:40:40.235Z",
+      "build_time": "2026-04-24T12:10:41.268Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.72",
-        "types": "1.0.0-alpha.72"
+        "toolchain": "1.0.0-alpha.74",
+        "types": "1.0.0-alpha.74"
       }
     },
     "MangaDemon": {
