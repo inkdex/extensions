@@ -1,0 +1,60 @@
+{
+  "buildTime": "2026-05-31T12:56:58.912Z",
+  "builtWith": {
+    "toolchain": "1.0.0-alpha.87",
+    "types": "1.0.0-alpha.87"
+  },
+  "repository": {
+    "name": "Inkdex Extensions (0.9)",
+    "description": "All extensions from the Inkdex community in a single repository."
+  },
+  "sources": [
+    {
+      "id": "AniList",
+      "name": "AniList",
+      "description": "Extension that integrates with anilist.co for tracking and collection management.",
+      "version": "1.0.0-alpha.16",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        4,
+        2,
+        32,
+        64,
+        8
+      ],
+      "developers": [
+        {
+          "name": "Celarye",
+          "website": "https://celarye.dev",
+          "github": "https://github.com/Celarye"
+        }
+      ]
+    },
+    {
+      "id": "MangaUpdates",
+      "name": "MangaUpdates",
+      "description": "Extension that integrates with mangaupdates.com for tracking and collection management.",
+      "version": "1.0.0-alpha.7",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        4,
+        2,
+        32,
+        64
+      ],
+      "developers": [
+        {
+          "name": "IntermittentlyRupert",
+          "website": null,
+          "github": "https://github.com/IntermittentlyRupert"
+        }
+      ]
+    }
+  ]
+}
