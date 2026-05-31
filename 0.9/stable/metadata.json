@@ -357,6 +357,22 @@
       }
     }
   },
+  "mangaworld-extensions": {
+    "MangaWorld": {
+      "build_time": "2026-05-31T11:14:23.901Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.87",
+        "types": "1.0.0-alpha.87"
+      }
+    },
+    "MangaWorldAdult": {
+      "build_time": "2026-05-31T11:14:23.901Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.87",
+        "types": "1.0.0-alpha.87"
+      }
+    }
+  },
   "tracker-extensions": {
     "AniList": {
       "build_time": "2026-05-31T11:01:11.984Z",
