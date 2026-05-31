@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-05-31T13:02:05.472Z",
+  "buildTime": "2026-05-31T13:02:39.237Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.87",
     "types": "1.0.0-alpha.87"
@@ -466,6 +466,30 @@
       ]
     },
     {
+      "id": "MangaBat",
+      "name": "MangaBat",
+      "description": "Extension that pulls content from mangabat.com.",
+      "version": "1.0.0-alpha.9",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        32,
+        64,
+        16
+      ],
+      "developers": [
+        {
+          "name": "Saw_6",
+          "website": null,
+          "github": null
+        }
+      ]
+    },
+    {
       "id": "MangaClash",
       "name": "MangaClash",
       "description": "Extension that pulls content from toonclash.com.",
@@ -510,6 +534,78 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "MangaKakalot",
+      "name": "MangaKakalot",
+      "description": "Extension that pulls content from mangakakalot.gg.",
+      "version": "1.0.0-alpha.9",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        32,
+        64,
+        16
+      ],
+      "developers": [
+        {
+          "name": "Saw_6",
+          "website": null,
+          "github": null
+        }
+      ]
+    },
+    {
+      "id": "MangaNato",
+      "name": "MangaNato",
+      "description": "Extension that pulls content from manganato.gg.",
+      "version": "1.0.0-alpha.9",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        32,
+        64,
+        16
+      ],
+      "developers": [
+        {
+          "name": "Saw_6",
+          "website": null,
+          "github": null
+        }
+      ]
+    },
+    {
+      "id": "MangaNelo",
+      "name": "MangaNelo",
+      "description": "Extension that pulls content from nelomanga.net.",
+      "version": "1.0.0-alpha.9",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        4,
+        32,
+        64,
+        16
+      ],
+      "developers": [
+        {
+          "name": "Saw_6",
+          "website": null,
+          "github": null
         }
       ]
     },

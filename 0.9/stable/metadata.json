@@ -260,6 +260,36 @@
       }
     }
   },
+  "mangabox-extensions": {
+    "MangaBat": {
+      "build_time": "2026-05-31T11:00:23.167Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.87",
+        "types": "1.0.0-alpha.87"
+      }
+    },
+    "MangaKakalot": {
+      "build_time": "2026-05-31T11:00:23.167Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.87",
+        "types": "1.0.0-alpha.87"
+      }
+    },
+    "MangaNato": {
+      "build_time": "2026-05-31T11:00:23.167Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.87",
+        "types": "1.0.0-alpha.87"
+      }
+    },
+    "MangaNelo": {
+      "build_time": "2026-05-31T11:00:23.167Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.87",
+        "types": "1.0.0-alpha.87"
+      }
+    }
+  },
   "mangastream-extensions": {
     "DrakeScans": {
       "build_time": "2026-05-31T10:52:28.737Z",
