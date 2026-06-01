@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-06-01T07:39:21.051Z",
+  "buildTime": "2026-06-01T09:34:10.417Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.87",
     "types": "1.0.0-alpha.87"
@@ -631,6 +631,30 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "MangaDot",
+      "name": "MangaDot",
+      "description": "Extension that pulls content from MangaDot.net",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        16,
+        4,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Catta1997",
+          "website": null,
+          "github": "https://github.com/Catta1997"
         }
       ]
     },

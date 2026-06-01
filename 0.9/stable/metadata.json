@@ -28,6 +28,13 @@
         "types": "1.0.0-alpha.87"
       }
     },
+    "MangaDot": {
+      "build_time": "2026-06-01T09:33:48.897Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.87",
+        "types": "1.0.0-alpha.87"
+      }
+    },
     "MangaFire": {
       "build_time": "2026-05-31T12:44:50.721Z",
       "built_with": {
