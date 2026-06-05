@@ -489,10 +489,10 @@
   },
   "tracker-extensions": {
     "AniList": {
-      "build_time": "2026-05-31T11:01:11.984Z",
+      "build_time": "2026-06-05T14:12:25.936Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "MangaUpdates": {
