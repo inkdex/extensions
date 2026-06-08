@@ -8,17 +8,17 @@
       }
     },
     "Comix": {
-      "build_time": "2026-06-03T16:15:55.221Z",
+      "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "MangaDemon": {
-      "build_time": "2026-05-31T12:44:50.721Z",
+      "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "MangaDex": {
@@ -43,24 +43,24 @@
       }
     },
     "MangaFox": {
-      "build_time": "2026-05-31T12:44:50.721Z",
+      "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "MangaKatana": {
-      "build_time": "2026-05-31T12:44:50.721Z",
+      "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "MangaPlus": {
-      "build_time": "2026-06-01T07:39:00.960Z",
+      "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "MangaTaro": {
@@ -71,10 +71,10 @@
       }
     },
     "Mangapill": {
-      "build_time": "2026-05-31T12:44:50.721Z",
+      "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "Mgeko": {
@@ -99,17 +99,17 @@
       }
     },
     "Webtoon": {
-      "build_time": "2026-05-31T12:44:50.721Z",
+      "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "WeebCentral": {
-      "build_time": "2026-05-31T12:44:50.721Z",
+      "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     }
   },

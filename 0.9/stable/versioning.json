@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-06-08T11:32:25.585Z",
+  "buildTime": "2026-06-08T20:23:48.955Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.89",
     "types": "1.0.0-alpha.89"
@@ -157,7 +157,7 @@
       "id": "Comix",
       "name": "Comix",
       "description": "Extension that pulls content from Comix.to.",
-      "version": "1.0.0-alpha.33",
+      "version": "1.0.0-alpha.34",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -565,7 +565,7 @@
       "id": "MangaDemon",
       "name": "MangaDemon",
       "description": "Extension that pulls content from demonicscans.org.",
-      "version": "1.0.0-alpha.13",
+      "version": "1.0.0-alpha.14",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -574,8 +574,7 @@
         1,
         16,
         4,
-        64,
-        32
+        64
       ],
       "developers": [
         {
@@ -684,7 +683,7 @@
       "id": "MangaFox",
       "name": "MangaFox",
       "description": "Extension that pulls content from fanfox.net.",
-      "version": "1.0.0-alpha.12",
+      "version": "1.0.0-alpha.13",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -731,7 +730,7 @@
       "id": "MangaKatana",
       "name": "MangaKatana",
       "description": "Extension that pulls content from mangakatana.com.",
-      "version": "1.0.0-alpha.14",
+      "version": "1.0.0-alpha.15",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -848,7 +847,7 @@
       "id": "MangaPlus",
       "name": "MangaPlus",
       "description": "Extension that pulls content from mangaplus.shueisha.co.jp.",
-      "version": "1.0.0-alpha.9",
+      "version": "1.0.0-alpha.10",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -1035,7 +1034,7 @@
       "id": "Mangapill",
       "name": "Mangapill",
       "description": "Extension that pulls content from mangapill.com.",
-      "version": "1.0.0-alpha.10",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -1581,9 +1580,9 @@
       "id": "Webtoon",
       "name": "Webtoon",
       "description": "Extension that pulls content from webtoons.com.",
-      "version": "1.0.0-alpha.16",
+      "version": "1.0.0-alpha.17",
       "icon": "icon.png",
-      "language": null,
+      "language": "multi",
       "contentRating": "SAFE",
       "badges": [],
       "capabilities": [
@@ -1628,7 +1627,7 @@
       "id": "WeebCentral",
       "name": "WeebCentral",
       "description": "Extension that pulls content from weebcentral.com.",
-      "version": "1.0.0-alpha.21",
+      "version": "1.0.0-alpha.22",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
