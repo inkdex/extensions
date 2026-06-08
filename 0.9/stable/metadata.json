@@ -473,17 +473,17 @@
   },
   "mangaworld-extensions": {
     "MangaWorld": {
-      "build_time": "2026-05-31T11:14:23.901Z",
+      "build_time": "2026-06-08T11:32:02.744Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "MangaWorldAdult": {
-      "build_time": "2026-05-31T11:14:23.901Z",
+      "build_time": "2026-06-08T11:32:02.744Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     }
   },
