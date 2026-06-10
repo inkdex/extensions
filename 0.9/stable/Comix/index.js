@@ -32,6 +32,23 @@ var source=(function(e){Object.defineProperty(e,Symbol.toStringTag,{value:`Modul
     })();
   `;o(`head`).prepend(`<script>${s}${t}<\/script>`);let c=await Application.executeInWebView({source:{html:o.html(),baseUrl:e,loadCSS:!1,loadImages:!1},inject:`return window.__comixResult__`,storage:{cookies:r}});if(c.result===void 0||c.result===null)throw Error(`Comix WebView returned no result`);return c.result}async function ld(e,t){return cd(`${je}/title/${e}`,`
     (function () {
+      function rewriteUrl(url) {
+        if (typeof url === "string" && url.indexOf("/chapters") !== -1 && /[?&]limit=\\d+/.test(url))
+          return url.replace(/([?&]limit=)\\d+/, "$1100");
+        return url;
+      }
+      var origOpen = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function (method, url) {
+        arguments[1] = rewriteUrl(url);
+        return origOpen.apply(this, arguments);
+      };
+      var origFetch = window.fetch;
+      window.fetch = function (input, init) {
+        if (typeof input === "string") input = rewriteUrl(input);
+        else if (input && typeof input.url === "string")
+          input = new Request(rewriteUrl(input.url), input);
+        return origFetch.call(this, input, init);
+      };
       var items = [];
       var seenPages = new Set();
       var totalPages = null;
