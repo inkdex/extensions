@@ -78,10 +78,10 @@
       }
     },
     "Mgeko": {
-      "build_time": "2026-05-31T12:44:50.721Z",
+      "build_time": "2026-06-11T16:44:40.326Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.89",
+        "types": "1.0.0-alpha.89"
       }
     },
     "PunkRecords": {
