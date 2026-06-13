@@ -15,10 +15,10 @@
       }
     },
     "MangaDemon": {
-      "build_time": "2026-06-08T20:23:26.393Z",
+      "build_time": "2026-06-13T15:59:36.706Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.89",
-        "types": "1.0.0-alpha.89"
+        "toolchain": "1.0.0-alpha.91",
+        "types": "1.0.0-alpha.91"
       }
     },
     "MangaDex": {
