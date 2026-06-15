@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-06-15T13:02:43.822Z",
+  "buildTime": "2026-06-15T15:33:12.038Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -636,7 +636,7 @@
       "id": "MangaDot",
       "name": "MangaDot",
       "description": "Extension that pulls content from MangaDot.net",
-      "version": "1.0.0-alpha.1",
+      "version": "1.0.0-alpha.2",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",

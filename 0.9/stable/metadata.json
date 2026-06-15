@@ -29,10 +29,10 @@
       }
     },
     "MangaDot": {
-      "build_time": "2026-06-01T09:33:48.897Z",
+      "build_time": "2026-06-15T15:32:30.632Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
       }
     },
     "MangaFire": {
