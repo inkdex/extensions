@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-06-15T17:44:25.338Z",
+  "buildTime": "2026-06-16T12:06:56.565Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -1381,6 +1381,30 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "RoyalRoad",
+      "name": "RoyalRoad",
+      "description": "Extension that pulls web novels from royalroad.com and renders their chapters as readable pages.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "badges": [],
+      "capabilities": [
+        1,
+        16,
+        4,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Inkdex",
+          "website": null,
+          "github": "https://github.com/Inkdex"
         }
       ]
     },

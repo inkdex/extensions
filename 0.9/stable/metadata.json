@@ -98,6 +98,13 @@
         "types": "1.0.0-alpha.87"
       }
     },
+    "RoyalRoad": {
+      "build_time": "2026-06-16T12:06:25.687Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
+      }
+    },
     "Webtoon": {
       "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {
