@@ -392,31 +392,31 @@
   },
   "mangabox-extensions": {
     "MangaBat": {
-      "build_time": "2026-05-31T11:00:23.167Z",
+      "build_time": "2026-06-16T12:25:31.942Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
       }
     },
     "MangaKakalot": {
-      "build_time": "2026-05-31T11:00:23.167Z",
+      "build_time": "2026-06-16T12:25:31.942Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
       }
     },
     "MangaNato": {
-      "build_time": "2026-05-31T11:00:23.167Z",
+      "build_time": "2026-06-16T12:25:31.942Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
       }
     },
     "MangaNelo": {
-      "build_time": "2026-05-31T11:00:23.167Z",
+      "build_time": "2026-06-16T12:25:31.942Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
       }
     }
   },

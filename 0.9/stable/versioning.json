@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-06-16T12:14:14.755Z",
+  "buildTime": "2026-06-16T12:26:13.770Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -493,7 +493,7 @@
       "id": "MangaBat",
       "name": "MangaBat",
       "description": "Extension that pulls content from mangabat.com.",
-      "version": "1.0.0-alpha.9",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -501,7 +501,6 @@
       "capabilities": [
         1,
         4,
-        32,
         64,
         16
       ],
@@ -682,7 +681,7 @@
       "id": "MangaKakalot",
       "name": "MangaKakalot",
       "description": "Extension that pulls content from mangakakalot.gg.",
-      "version": "1.0.0-alpha.9",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -690,7 +689,6 @@
       "capabilities": [
         1,
         4,
-        32,
         64,
         16
       ],
@@ -751,7 +749,7 @@
       "id": "MangaNato",
       "name": "MangaNato",
       "description": "Extension that pulls content from manganato.gg.",
-      "version": "1.0.0-alpha.9",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -759,7 +757,6 @@
       "capabilities": [
         1,
         4,
-        32,
         64,
         16
       ],
@@ -775,7 +772,7 @@
       "id": "MangaNelo",
       "name": "MangaNelo",
       "description": "Extension that pulls content from nelomanga.net.",
-      "version": "1.0.0-alpha.9",
+      "version": "1.0.0-alpha.11",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -783,7 +780,6 @@
       "capabilities": [
         1,
         4,
-        32,
         64,
         16
       ],
