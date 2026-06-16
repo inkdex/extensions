@@ -186,13 +186,6 @@
         "types": "1.0.0-alpha.87"
       }
     },
-    "HariManga": {
-      "build_time": "2026-05-31T11:02:59.552Z",
-      "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
-      }
-    },
     "HiperDex": {
       "build_time": "2026-05-31T11:02:59.552Z",
       "built_with": {
@@ -306,10 +299,10 @@
       }
     },
     "ManhwaRaw": {
-      "build_time": "2026-05-31T11:02:59.552Z",
+      "build_time": "2026-06-16T12:13:41.680Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
       }
     },
     "ManhwaTop": {
