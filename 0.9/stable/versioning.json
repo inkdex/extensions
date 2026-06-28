@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-06-27T22:12:16.561Z",
+  "buildTime": "2026-06-28T07:27:10.907Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -61,7 +61,7 @@
       "id": "ArthurScan",
       "name": "ArthurScan",
       "description": "Extension that pulls content from arthurscan.xyz.",
-      "version": "1.0.0-alpha.13",
+      "version": "1.0.0-alpha.14",
       "icon": "icon.png",
       "language": "pt",
       "contentRating": "MATURE",
