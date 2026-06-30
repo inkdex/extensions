@@ -14,6 +14,13 @@
         "types": "1.0.0-alpha.92"
       }
     },
+    "LNori": {
+      "build_time": "2026-06-30T09:59:32.006Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
+      }
+    },
     "MangaDemon": {
       "build_time": "2026-06-13T15:59:36.706Z",
       "built_with": {
