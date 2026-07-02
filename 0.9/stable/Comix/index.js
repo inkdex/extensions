@@ -9,7 +9,6 @@ var source=(function(e){Object.defineProperty(e,Symbol.toStringTag,{value:`Modul
     (function () {
       var items = [];
       var seenPages = new Set();
-      var totalPages = null;
       var submitted = false;
       var doneResolve;
       window.__comixResult__ = new Promise(function (r) {
@@ -26,11 +25,28 @@ var source=(function(e){Object.defineProperty(e,Symbol.toStringTag,{value:`Modul
         idleTimer = setTimeout(submit, 20000);
       }
       armIdle();
-      function gotoNext() {
+      function findNextButton(page) {
+        var buttons = Array.prototype.slice.call(document.querySelectorAll('.mchap-foot button'))
+          .filter(function (button) { return !button.disabled; });
+        var nextBtn = buttons.find(function (button) {
+          var label = [
+            button.getAttribute('aria-label'),
+            button.getAttribute('title'),
+            button.textContent
+          ].filter(Boolean).join(' ');
+          return /\bnext\b/i.test(label);
+        });
+        if (nextBtn) return nextBtn;
+        return buttons.find(function (button) {
+          var text = button.textContent ? button.textContent.trim() : "";
+          return Number(text) === page + 1;
+        });
+      }
+      function gotoNext(page) {
         var tries = 0;
         var iv = setInterval(function () {
-          var btn = document.querySelector(".mchap-foot button[aria-label*=Next]");
-          if (btn && !btn.disabled) {
+          var btn = findNextButton(page);
+          if (btn) {
             btn.click();
             clearInterval(iv);
           } else if (++tries > 50) {
@@ -53,16 +69,16 @@ var source=(function(e){Object.defineProperty(e,Symbol.toStringTag,{value:`Modul
               parsed.result.items[0].id !== undefined &&
               parsed.result.items[0].mangaId !== undefined
             ) {
-              var meta = parsed.result.meta || parsed.result.pagination;
-              var page = (meta && meta.page) || 1;
+              var meta = parsed.result.meta || parsed.result.pagination || {};
+              var page = meta.page || 1;
               if (!seenPages.has(page)) {
                 seenPages.add(page);
                 for (var i = 0; i < parsed.result.items.length; i++) items.push(parsed.result.items[i]);
-                if (totalPages === null && meta && typeof meta.lastPage === "number")
-                  totalPages = meta.lastPage;
-                if (totalPages !== null && page < totalPages) {
+                var lastPage = meta.lastPage || meta.last_page || page;
+                var hasNext = meta.hasNext || page < lastPage;
+                if (hasNext) {
                   armIdle();
-                  gotoNext();
+                  gotoNext(page);
                 } else submit();
               }
             }
