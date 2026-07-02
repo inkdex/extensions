@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-07-02T00:07:50.268Z",
+  "buildTime": "2026-07-02T10:05:05.043Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -1579,7 +1579,7 @@
       "id": "UToon",
       "name": "UToon",
       "description": "Extension that pulls content from utoon.net.",
-      "version": "1.0.0-alpha.12",
+      "version": "1.0.0-alpha.13",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "ADULT",
