@@ -14,6 +14,13 @@
         "types": "1.0.0-alpha.92"
       }
     },
+    "FlameComics": {
+      "build_time": "2026-07-02T00:07:25.285Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
+      }
+    },
     "LNori": {
       "build_time": "2026-06-30T09:59:32.006Z",
       "built_with": {
