@@ -112,6 +112,13 @@
         "types": "1.0.0-alpha.87"
       }
     },
+    "Roliascan": {
+      "build_time": "2026-07-02T13:40:24.839Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
+      }
+    },
     "RoyalRoad": {
       "build_time": "2026-06-16T12:06:25.687Z",
       "built_with": {
