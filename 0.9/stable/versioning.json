@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-07-02T14:29:09.167Z",
+  "buildTime": "2026-07-03T07:24:27.869Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -157,7 +157,7 @@
       "id": "Comix",
       "name": "Comix",
       "description": "Extension that pulls content from Comix.to.",
-      "version": "1.0.0-alpha.43",
+      "version": "1.0.0-alpha.44",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
@@ -686,7 +686,7 @@
       "id": "MangaFire",
       "name": "MangaFire",
       "description": "Extension that pulls content from mangafire.to.",
-      "version": "1.0.0-alpha.14",
+      "version": "1.0.0-alpha.15",
       "icon": "icon.png",
       "language": "multi",
       "contentRating": "SAFE",
