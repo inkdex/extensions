@@ -84,6 +84,13 @@
         "types": "1.0.0-alpha.87"
       }
     },
+    "Mangago": {
+      "build_time": "2026-07-03T07:32:21.762Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
+      }
+    },
     "Mangapill": {
       "build_time": "2026-06-08T20:23:26.393Z",
       "built_with": {

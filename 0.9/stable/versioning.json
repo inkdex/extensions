@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-07-03T07:24:27.869Z",
+  "buildTime": "2026-07-03T07:32:44.715Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -1050,6 +1050,30 @@
           "name": "Inkdex",
           "website": "https://inkdex.github.io",
           "github": "https://github.com/inkdex"
+        }
+      ]
+    },
+    {
+      "id": "Mangago",
+      "name": "Mangago",
+      "description": "Extension that pulls content from mangago.me.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "ADULT",
+      "badges": [],
+      "capabilities": [
+        1,
+        16,
+        4,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Popmango",
+          "website": null,
+          "github": "https://github.com/PoppingMangoSources"
         }
       ]
     },
