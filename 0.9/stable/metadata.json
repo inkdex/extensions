@@ -1,5 +1,12 @@
 {
   "general-extensions": {
+    "AllManga": {
+      "build_time": "2026-07-06T07:51:29.787Z",
+      "built_with": {
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
+      }
+    },
     "Atsumaru": {
       "build_time": "2026-06-23T11:24:33.256Z",
       "built_with": {

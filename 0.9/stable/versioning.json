@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-07-03T07:32:44.715Z",
+  "buildTime": "2026-07-06T07:51:50.524Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -9,6 +9,30 @@
     "description": "All extensions from the Inkdex community in a single repository."
   },
   "sources": [
+    {
+      "id": "AllManga",
+      "name": "AllManga",
+      "description": "Extension that pulls content from allmanga.to.",
+      "version": "1.0.0-alpha.1",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "MATURE",
+      "badges": [],
+      "capabilities": [
+        1,
+        16,
+        4,
+        64,
+        32
+      ],
+      "developers": [
+        {
+          "name": "Popmango",
+          "website": null,
+          "github": "https://github.com/PoppingMangoSources"
+        }
+      ]
+    },
     {
       "id": "AllPornComic",
       "name": "AllPornComic",
