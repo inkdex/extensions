@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-07-09T07:20:22.879Z",
+  "buildTime": "2026-07-09T16:48:28.617Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -638,7 +638,7 @@
       "id": "MangaFire",
       "name": "MangaFire",
       "description": "Extension that pulls content from mangafire.to.",
-      "version": "1.0.0-alpha.17",
+      "version": "1.0.0-alpha.18",
       "icon": "icon.png",
       "language": "multi",
       "contentRating": "MATURE",
