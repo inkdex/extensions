@@ -120,10 +120,10 @@
       }
     },
     "QiScans": {
-      "build_time": "2026-05-31T12:44:50.721Z",
+      "build_time": "2026-07-19T21:38:23.495Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
       }
     },
     "Roliascan": {

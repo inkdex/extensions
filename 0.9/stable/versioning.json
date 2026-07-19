@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-07-18T09:53:21.004Z",
+  "buildTime": "2026-07-19T21:38:45.232Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.92",
     "types": "1.0.0-alpha.92"
@@ -1246,7 +1246,7 @@
       "id": "QiScans",
       "name": "QiScans",
       "description": "Extension that pulls content from qimanhwa.com.",
-      "version": "1.0.0-alpha.14",
+      "version": "1.0.0-alpha.15",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "SAFE",
