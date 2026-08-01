@@ -24,18 +24,28 @@ var source=(function(e){Object.defineProperty(e,Symbol.toStringTag,{value:`Modul
       settled = true;
       doneResolve(value);
     }
+    function capture(parsed, raw) {
+      try {
+        if (parsed && (parsed.chapterPages || (parsed.data && parsed.data.chapterPages))) {
+          finish(raw);
+        }
+      } catch (e) {}
+    }
     var orig = JSON.parse;
     JSON.parse = new Proxy(orig, {
       apply: function (target, thisArg, args) {
         var parsed = Reflect.apply(target, thisArg, args);
-        try {
-          if (parsed && (parsed.chapterPages || (parsed.data && parsed.data.chapterPages))) {
-            finish(args[0]);
-          }
-        } catch (e) {}
+        capture(parsed, args[0]);
         return parsed;
       },
     });
+    var origJson = Response.prototype.json;
+    Response.prototype.json = function () {
+      return origJson.call(this).then(function (parsed) {
+        capture(parsed, JSON.stringify(parsed));
+        return parsed;
+      });
+    };
     setTimeout(function () { finish(""); }, 25000);
   })();
 <\/script>`);let c=await Application.executeInWebView({source:{html:s.html(),baseUrl:r,loadCSS:!1,loadImages:!1,userAgent:a},inject:`return window.__allMangaResult__`,storage:{cookies:i}});if(!(typeof c.result!=`string`||c.result.length===0))return Nd(c.result)}function Nd(e){let t;try{t=JSON.parse(e)}catch{return}let n=t,r=n.chapterPages??n.data?.chapterPages;if(r)return{chapterPages:r}}var Pd=class{constructor(){p(this,`globalRateLimiter`,new be(`rateLimiter`,{numberOfRequests:3,bufferInterval:1,ignoreImages:!0})),p(this,`cookieStorageInterceptor`,new Te({storage:`stateManager`})),p(this,`allMangaInterceptor`,new nt(`main`))}async initialise(){this.globalRateLimiter.registerInterceptor(),this.cookieStorageInterceptor.registerInterceptor(),this.allMangaInterceptor.registerInterceptor()}async getSettingsForm(){return new Ue}async cloudflareBypassCompleted(e,t,n){for(let e of t)(e.name.startsWith(`cf`)||e.name.startsWith(`_cf`)||e.name.startsWith(`__cf`))&&this.cookieStorageInterceptor.setCookie(e)}async getDiscoverSections(){return[{id:`popular`,title:`Popular`,type:De.featured},{id:`popular_week`,title:`Popular This Week`,type:De.prominentCarousel},{id:`popular_month`,title:`Popular This Month`,type:De.simpleCarousel},{id:`latest`,title:`Latest Updates`,type:De.chapterUpdates},{id:`recommended`,title:`Recommended`,type:De.simpleCarousel},{id:`genres`,title:`Genres`,type:De.genres}]}async popularSection(e,t,n){let r=(await rt(`query($type: VaildPopularTypeEnumType!, $size: Int!, $page: Int, $dateRange: Int, $allowAdult: Boolean, $allowUnknown: Boolean) {
