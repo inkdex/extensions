@@ -100,28 +100,29 @@ directory may be required; the `shared` directory is optional):
 ```sh
 .
 ├── implementations
-│   ├── discover-section
+│   ├── discover-section-providing
 │   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
-│   ├── manga
+│   ├── manga-details-providing
 │   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
-│   ├── manga-progress
+│   ├── manga-progress-providing
 │   │   ├── forms.ts
 │   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
-│   ├── search-results
+│   ├── search-results-providing
+│   │   ├── forms.ts
 │   │   ├── utils.ts
 │   │   ├── main.ts
 │   │   ├── models.ts
 │   │   └── parsers.ts
-│   ├── settings-form
+│   ├── settings-form-providing
 │   │   ├── forms.ts
 │   │   ├── utils.ts
 │   │   ├── main.ts
