@@ -489,10 +489,10 @@
       }
     },
     "MangaUpdates": {
-      "build_time": "2026-05-31T11:01:11.984Z",
+      "build_time": "2026-10-02T03:48:27.889Z",
       "built_with": {
-        "toolchain": "1.0.0-alpha.87",
-        "types": "1.0.0-alpha.87"
+        "toolchain": "1.0.0-alpha.92",
+        "types": "1.0.0-alpha.92"
       }
     }
   }
