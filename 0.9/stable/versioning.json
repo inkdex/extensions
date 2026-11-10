@@ -1,8 +1,8 @@
 {
-  "buildTime": "2026-11-03T14:55:32.307Z",
+  "buildTime": "2026-11-10T11:51:23.531Z",
   "builtWith": {
-    "toolchain": "1.0.0-alpha.92",
-    "types": "1.0.0-alpha.92"
+    "toolchain": "1.0.0-alpha.94",
+    "types": "1.0.0-alpha.94"
   },
   "repository": {
     "name": "Inkdex Extensions (0.9)",
@@ -300,7 +300,7 @@
       "id": "HiveToons",
       "name": "HiveToons",
       "description": "Extension that pulls content from hivetoons.org.",
-      "version": "1.0.0-alpha.3",
+      "version": "1.0.0-alpha.4",
       "icon": "icon.png",
       "language": "en",
       "contentRating": "MATURE",
@@ -566,7 +566,7 @@
       "id": "MangaDex",
       "name": "MangaDex",
       "description": "Extension that pulls content from mangadex.org.",
-      "version": "1.0.0-alpha.27",
+      "version": "1.0.0-alpha.28",
       "icon": "icon.png",
       "language": "multi",
       "contentRating": "SAFE",
